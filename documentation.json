@@ -21,7 +21,8 @@
               {
                 "title": "Introduction",
                 "path": "introduction",
-                "icon": "home"
+                "icon": "home",
+                "public": true
               },
               {
                 "title": "Quickstart",
@@ -33,7 +34,8 @@
                 "path": "components",
                 "icon": "code"
               }
-            ]
+            ],
+            "public": true
           },
           {
             "group": "Components",
