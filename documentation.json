@@ -27,12 +27,14 @@
               {
                 "title": "Quickstart",
                 "path": "quickstart",
-                "icon": "zap"
+                "icon": "zap",
+                "public": false
               },
               {
                 "title": "Components",
                 "path": "components",
-                "icon": "code"
+                "icon": "code",
+                "public": false
               }
             ],
             "public": true
