@@ -153,7 +153,7 @@
   },
   "logo-light": "https://blob-cdn.documentation.ai/org-94c4faad-42a7-40c6-a4e2-3b92f348306a/doc-7082eb82-2b5a-435c-8e98-12b52f287e4b/1772888649288-t35ntjmfvh-logo_ssp_2026.jpg?q=85&fm=auto&auto=compress%2Cformat",
   "logo-dark": "https://blob-cdn.documentation.ai/org-94c4faad-42a7-40c6-a4e2-3b92f348306a/doc-7082eb82-2b5a-435c-8e98-12b52f287e4b/1772889100247-xlmbz7h2aq-logo_ssp_2026_dark_bg.avif?q=85&fm=auto&auto=compress%2Cformat",
-  "template": "atlas",
+  "template": "classic",
   "seo": {
     "robots:index": true,
     "robots:follow": true
