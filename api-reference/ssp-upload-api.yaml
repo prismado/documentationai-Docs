@@ -4,12 +4,12 @@ info:
   version: 1.0.0
 
 servers:
-  - url: https://service-t.auctionline.ch/api
+  - url: https://serviced.auctionline.ch
 
 paths:
-  /upload:
+  /api/upload:
     post:
-      summary: Upload inventory data
+      summary: Upload inventory CSV
       operationId: uploadInventory
       security:
         - bearerAuth: []
@@ -25,25 +25,20 @@ paths:
               properties:
                 POSTDATA:
                   type: string
-                  description: JSON metadata payload
-                  example: '{"ssp_order_id":635,"u_type":"INV"}'
+                  description: JSON payload
                 file:
                   type: string
                   format: binary
-                  description: CSV file to upload
             encoding:
               POSTDATA:
                 contentType: application/json
       responses:
         "200":
           description: Upload successful
-        "400":
-          description: Invalid request
-        "401":
-          description: Unauthorized
 
 components:
   securitySchemes:
     bearerAuth:
       type: http
       scheme: bearer
+      bearerFormat: JWT
