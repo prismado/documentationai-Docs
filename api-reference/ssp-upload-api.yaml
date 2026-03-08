@@ -9,7 +9,7 @@ servers:
 paths:
   /upload-data:
     post:
-      summary: Upload inventory data
+      summary: /upload-data
       description: Hochladen von Inventar- oder PKID-Daten.
       security:
         - bearerAuth: []
