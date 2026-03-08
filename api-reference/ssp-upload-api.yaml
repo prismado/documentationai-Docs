@@ -6,7 +6,7 @@ servers:
   - url: https://service.auctionline.ch/api
 
 paths:
-  /upload:
+  /upload-data:
     post:
       summary: Upload inventory data
       description: Uploads inventory data as a CSV file together with metadata.
@@ -58,7 +58,7 @@ paths:
                     properties:
                       filename:
                         type: string
-                        example: XX
+                        example: imp_u56-030-811-410.csv
         "400":
           description: Invalid request
         "401":
