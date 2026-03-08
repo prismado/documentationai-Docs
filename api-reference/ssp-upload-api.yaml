@@ -2,6 +2,7 @@ openapi: 3.0.0
 info:
   title: Auctionline Upload API
   version: 1.0.0
+
 servers:
   - url: https://service-t.auctionline.ch/api
 
@@ -9,13 +10,13 @@ paths:
   /upload:
     post:
       summary: Upload inventory data
-      description: Uploads inventory data as a CSV file together with metadata.
+      operationId: uploadInventory
       security:
         - bearerAuth: []
       requestBody:
         required: true
         content:
-          application/json:
+          multipart/form-data:
             schema:
               type: object
               required:
@@ -23,25 +24,19 @@ paths:
                 - file
               properties:
                 POSTDATA:
-                  type: object
-                  description: JSON Metadaten Payload
-                  properties:
-                    ssp_order_id:
-                      type: integer
-                      example: 379
-                    u_type:
-                      type: string
-                      example: INV
+                  type: string
+                  description: JSON metadata payload
+                  example: '{"ssp_order_id":635,"u_type":"INV"}'
                 file:
                   type: string
                   format: binary
-                  description: Pfad zur CSV-Datei mit Inventardaten
+                  description: CSV file to upload
             encoding:
               POSTDATA:
                 contentType: application/json
       responses:
         "200":
-          description: Upload successful\ntbd
+          description: Upload successful
         "400":
           description: Invalid request
         "401":
@@ -52,4 +47,3 @@ components:
     bearerAuth:
       type: http
       scheme: bearer
-      bearerFormat: Base64
