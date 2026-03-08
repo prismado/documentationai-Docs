@@ -3,7 +3,7 @@ info:
   title: Auctionline Upload API
   version: 1.0.0
 servers:
-  - url: https://service.auctionline.ch/api
+  - url: https://service-t.auctionline.ch/api
 
 paths:
   /upload:
@@ -24,7 +24,7 @@ paths:
               properties:
                 POSTDATA:
                   type: object
-                  description: JSON Metaden Payload
+                  description: JSON Metadaten Payload
                   properties:
                     ssp_order_id:
                       type: integer
@@ -35,7 +35,7 @@ paths:
                 file:
                   type: string
                   format: binary
-                  description: CSV-Datei mit Inventardaten
+                  description: Pfad zur CSV-Datei mit Inventardaten
             encoding:
               POSTDATA:
                 contentType: application/json
