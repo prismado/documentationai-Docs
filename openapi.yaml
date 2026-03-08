@@ -12,11 +12,11 @@ info:
   license:
     name: MIT
 servers:
-  - url: https://api.example.com/v1
+  - url: https://service-t.auctionline.ch/api
 paths:
-  /projects:
+  /upload:
     get:
-      summary: List all projects
+      summary: Hochladen von Dateien
       operationId: listProjects
       parameters:
         - name: limit
