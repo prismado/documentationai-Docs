@@ -11,7 +11,7 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "Documentation",
+        "tab": "Dokumentation",
         "icon": "book",
         "groups": [
           {
@@ -19,7 +19,7 @@
             "icon": "rocket",
             "pages": [
               {
-                "title": "Introduction",
+                "title": "Einführung",
                 "path": "introduction",
                 "icon": "home",
                 "public": true
@@ -31,7 +31,7 @@
                 "public": false
               },
               {
-                "title": "Components",
+                "title": "Komponenten",
                 "path": "components",
                 "icon": "code",
                 "public": false
