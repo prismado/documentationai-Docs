@@ -41,7 +41,7 @@ paths:
                 contentType: application/json
       responses:
         "200":
-          description: Upload successful
+          description: Upload successful\ntbd
         "400":
           description: Invalid request
         "401":
