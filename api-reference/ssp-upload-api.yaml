@@ -3,13 +3,13 @@ info:
   title: Auctionline Upload API
   version: 1.0.0
 servers:
-  - url: https://service.auctionline.ch/api
+  - url: https://serviced.auctionline.ch/api
 
 paths:
   /upload-data:
     post:
       summary: Upload inventory data
-      description: Uploads inventory data as a CSV file together with metadata.
+      description: Hochladen von Inventar- oder PKID-Daten.
       security:
         - bearerAuth: []
       requestBody:
