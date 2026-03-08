@@ -34,7 +34,8 @@
                 "title": "Komponenten",
                 "path": "components",
                 "icon": "code",
-                "public": false
+                "public": false,
+                "content-width": "wide"
               }
             ],
             "public": true
