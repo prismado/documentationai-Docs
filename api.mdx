@@ -19,11 +19,14 @@ Verwenden Sie ein Bearer Token im `Authorization` Header, damit ihre Anfrage bas
 **Beispiel: Inventardaten übermitteln für Bestellung Nr. 379**
 
 ```bash
-curl -s \
-  -H "Authorization: Bearer $TOKEN" \
-  -F 'POSTDATA={"ssp_order_id":379,"u_type":"INV"};type=application/json' \
-  -F 'file=@data/inventardaten.csv' \
-  https://service.auctionline.ch/api/upload
+curl -X POST "https://service-t.auctionline.ch/api/upload-data" \
+  -H "Content-Type: application/json" \
+  -H "Authorization: Bearer YOUR_API_TOKEN" \
+  -d '{
+  "ssp_order_id": 379,
+  "u_type": "INV",
+  "file": "YXNkZgo="
+}'
 ```
 
 <ParamField header="Authorization" param-type="string" required="true" deprecated="false">
