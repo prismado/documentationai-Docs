@@ -91,7 +91,8 @@
                 "path": "api",
                 "icon": "activity-square"
               }
-            ]
+            ],
+            "openapi": "api-reference/ssp-upload-api.yaml"
           },
           {
             "group": "Sample Endpoints",
