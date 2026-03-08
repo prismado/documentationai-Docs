@@ -15,7 +15,7 @@ paths:
       requestBody:
         required: true
         content:
-          multipart/form-data:
+          application/json:
             schema:
               type: object
               required:
@@ -24,7 +24,7 @@ paths:
               properties:
                 POSTDATA:
                   type: object
-                  description: JSON metadata payload
+                  description: JSON Metaden Payload
                   properties:
                     ssp_order_id:
                       type: integer
@@ -35,7 +35,7 @@ paths:
                 file:
                   type: string
                   format: binary
-                  description: CSV file containing inventory data
+                  description: CSV-Datei mit Inventardaten
             encoding:
               POSTDATA:
                 contentType: application/json
@@ -52,4 +52,4 @@ components:
     bearerAuth:
       type: http
       scheme: bearer
-      bearerFormat: JWT
+      bearerFormat: Base64
