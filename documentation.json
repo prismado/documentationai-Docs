@@ -83,11 +83,11 @@
         "icon": "code",
         "groups": [
           {
-            "group": "Overview",
+            "group": "Übersicht",
             "icon": "file-text",
             "pages": [
               {
-                "title": "Übersicht",
+                "title": "Upload",
                 "path": "api",
                 "icon": "activity-square"
               }
