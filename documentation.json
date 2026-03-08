@@ -87,9 +87,9 @@
             "icon": "file-text",
             "pages": [
               {
-                "title": "Authentication",
-                "path": "authentication",
-                "icon": "lock"
+                "title": "Übersicht",
+                "path": "api",
+                "icon": "activity-square"
               }
             ]
           },
