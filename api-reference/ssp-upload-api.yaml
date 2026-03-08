@@ -50,6 +50,9 @@ paths:
                   resultCode:
                     type: integer
                     example: 0
+                  message:
+                    type: string
+                    example: Upload-Type PKID SSP-Order-ID 543
         "400":
           description: Invalid request
         "401":
