@@ -32,6 +32,7 @@ paths:
                     u_type:
                       type: string
                       example: INV
+                      description: INV oder PKID
                     file:
                       type: string
                       format: binary
