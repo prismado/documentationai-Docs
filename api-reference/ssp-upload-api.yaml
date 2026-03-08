@@ -59,6 +59,9 @@ paths:
                       filename:
                         type: string
                         example: imp_u56-030-811-410.csv
+                      immportID:
+                        type: integer
+                        example: 1410
         "400":
           description: Invalid request
         "401":
