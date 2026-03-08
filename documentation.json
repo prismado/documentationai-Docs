@@ -94,8 +94,7 @@
             ]
           },
           {
-            "group": "Sample Endpoints",
-            "openapi": "openapi.yaml"
+            "group": "Sample Endpoints"
           },
           {
             "group": "API Endpoints",
