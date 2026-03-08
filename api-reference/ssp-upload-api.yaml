@@ -32,10 +32,10 @@ paths:
                     u_type:
                       type: string
                       example: INV
-                file:
-                  type: string
-                  format: binary
-                  description: Base 64-kodierter Dateiinhalt
+                    file:
+                      type: string
+                      format: binary
+                      description: Base 64-kodierter Dateiinhalt
             encoding:
               POSTDATA:
                 contentType: application/json
