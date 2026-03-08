@@ -2,6 +2,7 @@ openapi: 3.0.0
 info:
   title: Auctionline Upload API
   version: 1.0.0
+
 servers:
   - url: https://serviced.auctionline.ch/api
 
@@ -19,27 +20,21 @@ paths:
             schema:
               type: object
               required:
-                - POSTDATA
+                - ssp_order_id
+                - u_type
                 - file
               properties:
-                POSTDATA:
-                  type: object
-                  description: JSON metadata payload
-                  properties:
-                    ssp_order_id:
-                      type: integer
-                      example: 379
-                    u_type:
-                      type: string
-                      example: INV
-                      description: INV oder PKID
-                    file:
-                      type: string
-                      format: binary
-                      description: Base 64-kodierter Dateiinhalt
-            encoding:
-              POSTDATA:
-                contentType: application/json
+                ssp_order_id:
+                  type: integer
+                  example: 379
+                u_type:
+                  type: string
+                  example: INV
+                  description: INV oder PKID
+                file:
+                  type: string
+                  format: byte
+                  description: Base64-kodierter Dateiinhalt
       responses:
         "200":
           description: Upload successful
@@ -60,7 +55,7 @@ paths:
                       filename:
                         type: string
                         example: imp_u56-030-811-410.csv
-                      immportID:
+                      importID:
                         type: integer
                         example: 1410
         "400":
@@ -73,4 +68,4 @@ components:
     bearerAuth:
       type: http
       scheme: bearer
-      bearerFormat: Base 64
+      bearerFormat: JWT
