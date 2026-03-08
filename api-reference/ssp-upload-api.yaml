@@ -35,7 +35,7 @@ paths:
                 file:
                   type: string
                   format: binary
-                  description: CSV file containing inventory data
+                  description: Base 64-kodierter Dateiinhalt
             encoding:
               POSTDATA:
                 contentType: application/json
@@ -72,4 +72,4 @@ components:
     bearerAuth:
       type: http
       scheme: bearer
-      bearerFormat: JWT
+      bearerFormat: Base 64
