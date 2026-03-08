@@ -53,6 +53,12 @@ paths:
                   message:
                     type: string
                     example: Upload-Type PKID SSP-Order-ID 543
+                  data:
+                    type: object
+                    properties:
+                      filename:
+                        type: string
+                        example: XX
         "400":
           description: Invalid request
         "401":
