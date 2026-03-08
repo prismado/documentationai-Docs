@@ -7,7 +7,7 @@ servers:
   - url: https://serviced.auctionline.ch
 
 paths:
-  /api/upload:
+  /api/upload-data:
     post:
       summary: Upload inventory CSV
       operationId: uploadInventory
@@ -16,7 +16,7 @@ paths:
       requestBody:
         required: true
         content:
-          multipart/form-data:
+          application/json:
             schema:
               type: object
               required:
