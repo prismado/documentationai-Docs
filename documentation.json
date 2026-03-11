@@ -46,7 +46,8 @@
               {
                 "title": "Grundfunktionen",
                 "path": "basic-functions",
-                "icon": "activity-square-icon"
+                "icon": "activity-square-icon",
+                "public": true
               }
             ],
             "icon": "alarm-clock-check-icon"
