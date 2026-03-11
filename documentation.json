@@ -48,6 +48,12 @@
                 "path": "basic-functions",
                 "icon": "activity-square-icon",
                 "public": true
+              },
+              {
+                "title": "Status-Codes",
+                "path": "status-codes",
+                "icon": "alert-circle-icon",
+                "public": true
               }
             ],
             "icon": "alarm-clock-check-icon"

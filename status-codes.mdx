@@ -1,0 +1,125 @@
+---
+title: Status-Codes
+description: >-
+  Die für eine Bestellung hauptsächlich relevanten Status-Codes sind 3
+  (storniert) und 4 (abgeschlossene Bestellung). Für einen Artikel sind
+  insbesondere die Codes 10 (Pre-Provisioning durchgeführt) und 12 (stornierter
+  Artikel) von Bedeutung.
+
+
+  Für die KPI-Berechnung sind in der Postgres-Tabelle Articles die Felder
+  `time_created`, `time_expected` und `time_delivered` auszuwerten, ggf. unter
+  Berücksichtigung des aus dem Bechtle Punchout-Katalog übermittelten Werts
+  `leadtime` (Liefertage).
+---
+## Bestellungen
+
+- 1 = New / offene Bestellung
+
+- 2 = Pending CC (kurzfristig durch das System)
+
+- 3 = Storno
+
+- 4 = Completed
+
+- 100 = QR Bill created
+
+- 101 = QR Bill sent to administrator
+
+- 102 = Send reminder (pending order)
+
+- 103 = Re-fill von Checkout (Fortsetzung einer pendenten Bestellung)
+
+- 104 = Delivery Note created (Lieferschein)
+
+- 105 = Order cancelled
+
+- 200 = Order completed
+
+- 210 = Bestell-E-Mail an Händler gesendet (finalize\_order)
+
+- 211 = Bestellbestätigung an Kunde gesendet m/PDF
+
+- 213 = Bestell-Bestätigung nochmalig an Kunde übermittelt
+
+- 220 = Bestellung abgeschlossen mit Prismado Tag(s)
+
+- 223 = cXML Order erstellt
+
+- 224 = cXML erste Übermittlungsbestätigung mit payloadID
+
+- 225 = EDI Order Response transferred
+
+- 226 = EDI Order Link
+
+- 228 = EDI Dispatch Notification created
+
+- 229 = EDI Dispatch Notification transmitted
+
+- 235 = cXML-Antwort / Bestellbestätigung
+
+- 250 = Sendung unterwegs
+
+- 251 = Sendung zugestellt
+
+- 400 = DHL Package Infos (Link to more infos)
+
+- 500 = Handlungsbedarf / muss quittiert werden; siehe auch 501
+
+- 501 = Quittierter Status
+
+- 600 = Quittierung eines Status-Code 500
+
+- 700 = Serviceportal - KTAG
+
+- 705 = Serviceportal - KTAG: XML an M42 gesendet - JSON
+
+- 710 = Serviceportal - KTAG: PKID-Autopilot-Registrierung angefordert
+
+- 715 = Serviceportal - KTAG / PKID: Autopilot-Reg. bestätigt
+
+- 720 = Serviceportal - KTAG / Inventarfile m/Seriennummern hochgeladen
+
+- 725 = Serviceportal - KTAG: DeliveryState gesetzt bei Bestellposition *"x"* - JSON
+
+- 800 = Individuell, siehe Text
+
+- 801 = Individuell, für Kunde einsehbar
+
+- 900 = Google Rating angefragt
+
+- 5000 = Temporäre Information
+
+- 5001 = Temporäre Information, für Kunde einsehbar
+
+- 8000 bis 9999: Generell für Kunde einsehbar!
+
+## Artikel
+
+- 0 = Produkt neu erstellt
+
+- 1 = Lagerbestand wurde manuell geändert
+
+- 2 = Lagerbestand wieder erhöht aufgrund Storno Auftrag
+
+- 3 = Stückzahl-Reduktion aufgrund Bestellung
+
+- 4 = Produkt kopiert
+
+- 5 = Kopiertes Produkt von Produkt-ID *nn*
+
+- 6 = Rabatt gesetzt
+
+- 7 = Eskalation
+
+- 8 = Dynamisch erstellter Artikel
+
+- 9 = Manueller History-Eintrag
+
+- 10 = Pre-provisioning durchgeführt (SSP)
+
+- 11 = Delivery State (JSON-Struktur / SSP)\
+  z.B. `{ "Code": 6, "Rem": "einer von drei desktops storniert" }`
+
+- 12 = Storno (SSP), JSON-Struktur
+
