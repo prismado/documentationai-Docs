@@ -6,12 +6,11 @@ description: >-
   insbesondere die Codes 10 (Pre-Provisioning durchgeführt) und 12 (stornierter
   Artikel) von Bedeutung.
 
-
-  Für die KPI-Berechnung sind in der Postgres-Tabelle Articles die Felder
-  `time_created`, `time_expected` und `time_delivered` auszuwerten, ggf. unter
-  Berücksichtigung des aus dem Bechtle Punchout-Katalog übermittelten Werts
-  `leadtime` (Liefertage).
 ---
+Für die KPI-Berechnung sind in der Postgres-Tabelle Articles die Felder `time_created`, `time_expected` und `time_delivered` auszuwerten, ggf. unter Berücksichtigung des aus dem Bechtle Punchout-Katalog übermittelten Werts `leadtime` (Liefertage).
+
+---
+
 ## Bestellungen
 
 - 1 = New / offene Bestellung
@@ -122,4 +121,6 @@ description: >-
   z.B. `{ "Code": 6, "Rem": "einer von drei desktops storniert" }`
 
 - 12 = Storno (SSP), JSON-Struktur
+
+---
 
