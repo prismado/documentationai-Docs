@@ -41,6 +41,17 @@
             "public": true
           },
           {
+            "group": "Operations",
+            "pages": [
+              {
+                "title": "Grundfunktionen",
+                "path": "basic-functions",
+                "icon": "activity-square-icon"
+              }
+            ],
+            "icon": "alarm-clock-check-icon"
+          },
+          {
             "group": "Components",
             "icon": "layers",
             "pages": [
