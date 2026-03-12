@@ -259,6 +259,17 @@
           }
         ],
         "public": true
+      },
+      {
+        "dropdown": "Entwickler",
+        "pages": [
+          {
+            "title": "test",
+            "path": "test",
+            "icon": "a-large-small"
+          }
+        ],
+        "icon": "code2-icon"
       }
     ]
   },
