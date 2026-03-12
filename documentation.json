@@ -40,9 +40,10 @@
                 "group": "Grundfunktionen",
                 "pages": [
                   {
-                    "title": "Reporting",
-                    "path": "reporting",
-                    "icon": "area-chart"
+                    "title": "Benutzerfunktionen",
+                    "path": "user-functions",
+                    "icon": "circle-user-round",
+                    "public": true
                   },
                   {
                     "title": "Administratoren und Spezialrollen",
@@ -51,10 +52,9 @@
                     "public": true
                   },
                   {
-                    "title": "Benutzerfunktionen",
-                    "path": "user-functions",
-                    "icon": "circle-user-round",
-                    "public": true
+                    "title": "Reporting",
+                    "path": "reporting",
+                    "icon": "area-chart"
                   }
                 ],
                 "icon": "lucide-rocket"
