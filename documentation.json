@@ -181,17 +181,6 @@
                       }
                     ],
                     "icon": "construction"
-                  },
-                  {
-                    "group": "Roadmap",
-                    "pages": [
-                      {
-                        "title": "Roadmap",
-                        "path": "roadmap",
-                        "icon": "sunrise-icon"
-                      }
-                    ],
-                    "icon": "sunrise-icon"
                   }
                 ]
               },
@@ -205,6 +194,17 @@
                   }
                 ],
                 "icon": "activity-square"
+              },
+              {
+                "group": "Roadmap",
+                "pages": [
+                  {
+                    "title": "Roadmap",
+                    "path": "roadmap",
+                    "icon": "sunrise-icon"
+                  }
+                ],
+                "icon": "car"
               }
             ]
           },
