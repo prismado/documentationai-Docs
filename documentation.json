@@ -34,20 +34,6 @@
                     "public": true
                   },
                   {
-                    "group": "zz Start ",
-                    "icon": "rocket",
-                    "pages": [
-                      {
-                        "title": "Komponenten",
-                        "path": "components",
-                        "icon": "cog",
-                        "public": false,
-                        "content-width": "wide"
-                      }
-                    ],
-                    "public": true
-                  },
-                  {
                     "group": "Grundfunktionen",
                     "pages": [
                       {
@@ -91,6 +77,19 @@
                   }
                 ],
                 "icon": "lucide-shield-check"
+              },
+              {
+                "group": "Systemarchitektur",
+                "pages": [
+                  {
+                    "title": "Komponenten",
+                    "path": "components",
+                    "icon": "cog",
+                    "public": false,
+                    "content-width": "wide"
+                  }
+                ],
+                "icon": "warehouse"
               }
             ]
           },
