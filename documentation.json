@@ -88,15 +88,8 @@
             ]
           },
           {
-            "tab": "API",
-            "pages": [
-              {
-                "group": "API",
-                "pages": [],
-                "icon": "unplug",
-                "openapi": "api-reference/ssp-upload-api.yaml"
-              }
-            ],
+            "tab": "Schnittstellen",
+            "pages": [],
             "icon": "unplug"
           }
         ]
@@ -194,7 +187,20 @@
           },
           {
             "tab": "API",
-            "pages": [],
+            "pages": [
+              {
+                "group": "API",
+                "pages": [
+                  {
+                    "group": "API",
+                    "pages": [],
+                    "icon": "unplug",
+                    "openapi": "api-reference/ssp-upload-api.yaml"
+                  }
+                ],
+                "icon": "lucide-unplug"
+              }
+            ],
             "icon": "unplug"
           }
         ]
