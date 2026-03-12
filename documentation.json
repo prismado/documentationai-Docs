@@ -118,18 +118,12 @@
                 "icon": "airplay",
                 "pages": [
                   {
-                    "group": "Operations",
+                    "group": "zz Operations",
                     "pages": [
                       {
                         "title": "Periodische Jobs",
                         "path": "periodical-jobs",
                         "icon": "lucide-truck"
-                      },
-                      {
-                        "title": "Grundfunktionen",
-                        "path": "basic-functions",
-                        "icon": "cloud-cog-icon",
-                        "public": true
                       },
                       {
                         "title": "Status-Codes",
@@ -199,6 +193,18 @@
                   }
                 ],
                 "icon": "car"
+              },
+              {
+                "group": "Et cetera",
+                "pages": [
+                  {
+                    "title": "Grundfunktionen",
+                    "path": "basic-functions",
+                    "icon": "cloud-cog-icon",
+                    "public": true
+                  }
+                ],
+                "icon": "badge-plus-icon"
               }
             ]
           },
