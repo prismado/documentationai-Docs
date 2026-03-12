@@ -55,6 +55,12 @@
                     "title": "Reporting",
                     "path": "reporting",
                     "icon": "area-chart"
+                  },
+                  {
+                    "title": "Status-Codes",
+                    "path": "status-codes",
+                    "icon": "alert-circle-icon",
+                    "public": true
                   }
                 ],
                 "icon": "lucide-rocket"
@@ -110,12 +116,6 @@
                 "group": "Operations",
                 "icon": "airplay",
                 "pages": [
-                  {
-                    "title": "Status-Codes",
-                    "path": "status-codes",
-                    "icon": "alert-circle-icon",
-                    "public": true
-                  },
                   {
                     "title": "Periodische Jobs",
                     "path": "periodical-jobs",
