@@ -198,9 +198,9 @@
                 "group": "API",
                 "pages": [
                   {
-                    "title": "tbd603121",
+                    "title": "API-Zugriff",
                     "path": "api",
-                    "icon": "a-arrow-down"
+                    "icon": "zap"
                   },
                   {
                     "group": "REST API",
