@@ -107,87 +107,98 @@
           {
             "tab": "Allgemein",
             "icon": "lucide-globe",
-            "pages": [
+            "groups": [
               {
-                "group": "Operations",
+                "group": "Meine Gruppe 603121",
+                "icon": "airplay",
                 "pages": [
                   {
-                    "title": "Periodische Jobs",
-                    "path": "periodical-jobs",
-                    "icon": "lucide-truck"
+                    "title": "tbd603122",
+                    "path": "tbd603122",
+                    "icon": "a-arrow-up"
                   },
                   {
-                    "title": "Grundfunktionen",
-                    "path": "basic-functions",
-                    "icon": "cloud-cog-icon",
-                    "public": true
+                    "group": "Operations",
+                    "pages": [
+                      {
+                        "title": "Periodische Jobs",
+                        "path": "periodical-jobs",
+                        "icon": "lucide-truck"
+                      },
+                      {
+                        "title": "Grundfunktionen",
+                        "path": "basic-functions",
+                        "icon": "cloud-cog-icon",
+                        "public": true
+                      },
+                      {
+                        "title": "Status-Codes",
+                        "path": "status-codes",
+                        "icon": "alert-circle-icon",
+                        "public": true
+                      },
+                      {
+                        "title": "Fehlerhandling & Logging",
+                        "path": "errorhandling-logging",
+                        "icon": "lucide-monitor-stop"
+                      }
+                    ],
+                    "icon": "alarm-clock-check-icon"
                   },
                   {
-                    "title": "Status-Codes",
-                    "path": "status-codes",
-                    "icon": "alert-circle-icon",
-                    "public": true
+                    "group": "Schnittstellen",
+                    "pages": [
+                      {
+                        "title": "Upload CSV / XML",
+                        "path": "upload-csv-xml",
+                        "icon": "cloud-upload"
+                      },
+                      {
+                        "title": "Schnittstellen",
+                        "path": "interfaces",
+                        "icon": "arrow-down01-icon"
+                      }
+                    ],
+                    "icon": "align-vertical-distribute-center-icon"
                   },
                   {
-                    "title": "Fehlerhandling & Logging",
-                    "path": "errorhandling-logging",
-                    "icon": "lucide-monitor-stop"
-                  }
-                ],
-                "icon": "alarm-clock-check-icon"
-              },
-              {
-                "group": "Schnittstellen",
-                "pages": [
-                  {
-                    "title": "Upload CSV / XML",
-                    "path": "upload-csv-xml",
-                    "icon": "cloud-upload"
+                    "group": "Architektur HW & SW",
+                    "pages": [
+                      {
+                        "title": "Frontend",
+                        "path": "architecture-frontend",
+                        "icon": "lucide-monitor-stop"
+                      },
+                      {
+                        "title": "Backend",
+                        "path": "architecture-backend",
+                        "icon": "database-backup-icon"
+                      },
+                      {
+                        "title": "Source Code",
+                        "path": "source-code",
+                        "icon": "code-square"
+                      },
+                      {
+                        "title": "DB-Schema",
+                        "path": "db-schema",
+                        "icon": "database"
+                      }
+                    ],
+                    "icon": "construction"
                   },
                   {
-                    "title": "Schnittstellen",
-                    "path": "interfaces",
-                    "icon": "arrow-down01-icon"
-                  }
-                ],
-                "icon": "align-vertical-distribute-center-icon"
-              },
-              {
-                "group": "Architektur HW & SW",
-                "pages": [
-                  {
-                    "title": "Frontend",
-                    "path": "architecture-frontend",
-                    "icon": "lucide-monitor-stop"
-                  },
-                  {
-                    "title": "Backend",
-                    "path": "architecture-backend",
-                    "icon": "database-backup-icon"
-                  },
-                  {
-                    "title": "Source Code",
-                    "path": "source-code",
-                    "icon": "code-square"
-                  },
-                  {
-                    "title": "DB-Schema",
-                    "path": "db-schema",
-                    "icon": "database"
-                  }
-                ],
-                "icon": "construction"
-              },
-              {
-                "group": "Roadmap",
-                "pages": [
-                  {
-                    "title": "Roadmap",
-                    "path": "roadmap",
+                    "group": "Roadmap",
+                    "pages": [
+                      {
+                        "title": "Roadmap",
+                        "path": "roadmap",
+                        "icon": "sunrise-icon"
+                      }
+                    ],
                     "icon": "sunrise-icon"
                   }
-                ],
-                "icon": "sunrise-icon"
+                ]
               }
             ]
           },
