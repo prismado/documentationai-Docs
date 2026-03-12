@@ -63,16 +63,9 @@
                 "group": "Authentifizierung",
                 "pages": [
                   {
-                    "group": "Authentifizierung",
-                    "pages": [
-                      {
-                        "title": "Login / Session",
-                        "path": "login-session",
-                        "icon": "lucide-shield-check"
-                      }
-                    ],
-                    "icon": "lucide-shield-check",
-                    "public": true
+                    "title": "Login / Session",
+                    "path": "login-session",
+                    "icon": "lucide-shield-check"
                   }
                 ],
                 "icon": "lucide-shield-check"
