@@ -21,154 +21,160 @@
               {
                 "tab": "Dokumentation",
                 "icon": "book",
-                "groups": [
+                "dropdowns": [
                   {
-                    "group": "Start ",
-                    "icon": "rocket",
-                    "pages": [
+                    "dropdown": "Entwickler",
+                    "icon": "code2",
+                    "groups": [
                       {
-                        "title": "Einführung",
-                        "path": "introduction",
-                        "icon": "home",
+                        "group": "Start ",
+                        "icon": "rocket",
+                        "pages": [
+                          {
+                            "title": "Einführung",
+                            "path": "introduction",
+                            "icon": "home",
+                            "public": true
+                          },
+                          {
+                            "title": "Quickstart",
+                            "path": "quickstart",
+                            "icon": "zap",
+                            "public": false
+                          },
+                          {
+                            "title": "workflows",
+                            "path": "workflows",
+                            "icon": "workflow"
+                          },
+                          {
+                            "title": "Komponenten",
+                            "path": "components",
+                            "icon": "cog",
+                            "public": false,
+                            "content-width": "wide"
+                          }
+                        ],
                         "public": true
                       },
                       {
-                        "title": "Quickstart",
-                        "path": "quickstart",
-                        "icon": "zap",
-                        "public": false
-                      },
-                      {
-                        "title": "workflows",
-                        "path": "workflows",
-                        "icon": "workflow"
-                      },
-                      {
-                        "title": "Komponenten",
-                        "path": "components",
-                        "icon": "cog",
-                        "public": false,
-                        "content-width": "wide"
-                      }
-                    ],
-                    "public": true
-                  },
-                  {
-                    "group": "Grundfunktionen",
-                    "pages": [
-                      {
-                        "title": "Benutzerfunktionen",
-                        "path": "user-functions",
-                        "icon": "circle-user-round",
+                        "group": "Grundfunktionen",
+                        "pages": [
+                          {
+                            "title": "Benutzerfunktionen",
+                            "path": "user-functions",
+                            "icon": "circle-user-round",
+                            "public": true
+                          },
+                          {
+                            "title": "Administratoren und Spezialrollen",
+                            "path": "admin-special-functions",
+                            "icon": "crown-icon",
+                            "public": true
+                          },
+                          {
+                            "title": "Reporting",
+                            "path": "reporting",
+                            "icon": "area-chart"
+                          }
+                        ],
+                        "icon": "lucide-rocket",
                         "public": true
                       },
                       {
-                        "title": "Administratoren und Spezialrollen",
-                        "path": "admin-special-functions",
-                        "icon": "crown-icon",
+                        "group": "Authentifizierung",
+                        "pages": [
+                          {
+                            "title": "Login / Session",
+                            "path": "login-session",
+                            "icon": "lucide-shield-check"
+                          }
+                        ],
+                        "icon": "lucide-shield-check",
                         "public": true
                       },
                       {
-                        "title": "Reporting",
-                        "path": "reporting",
-                        "icon": "area-chart"
-                      }
-                    ],
-                    "icon": "lucide-rocket",
-                    "public": true
-                  },
-                  {
-                    "group": "Authentifizierung",
-                    "pages": [
-                      {
-                        "title": "Login / Session",
-                        "path": "login-session",
-                        "icon": "lucide-shield-check"
-                      }
-                    ],
-                    "icon": "lucide-shield-check",
-                    "public": true
-                  },
-                  {
-                    "group": "Operations",
-                    "pages": [
-                      {
-                        "title": "Periodische Jobs",
-                        "path": "periodical-jobs",
-                        "icon": "lucide-truck"
+                        "group": "Operations",
+                        "pages": [
+                          {
+                            "title": "Periodische Jobs",
+                            "path": "periodical-jobs",
+                            "icon": "lucide-truck"
+                          },
+                          {
+                            "title": "Grundfunktionen",
+                            "path": "basic-functions",
+                            "icon": "cloud-cog-icon",
+                            "public": true
+                          },
+                          {
+                            "title": "Status-Codes",
+                            "path": "status-codes",
+                            "icon": "alert-circle-icon",
+                            "public": true
+                          },
+                          {
+                            "title": "Fehlerhandling & Logging",
+                            "path": "errorhandling-logging",
+                            "icon": "lucide-monitor-stop"
+                          }
+                        ],
+                        "icon": "alarm-clock-check-icon"
                       },
                       {
-                        "title": "Grundfunktionen",
-                        "path": "basic-functions",
-                        "icon": "cloud-cog-icon",
-                        "public": true
+                        "group": "Schnittstellen",
+                        "pages": [
+                          {
+                            "title": "Upload CSV / XML",
+                            "path": "upload-csv-xml",
+                            "icon": "cloud-upload"
+                          },
+                          {
+                            "title": "Schnittstellen",
+                            "path": "interfaces",
+                            "icon": "arrow-down01-icon"
+                          }
+                        ],
+                        "icon": "align-vertical-distribute-center-icon"
                       },
                       {
-                        "title": "Status-Codes",
-                        "path": "status-codes",
-                        "icon": "alert-circle-icon",
-                        "public": true
+                        "group": "Architektur HW & SW",
+                        "pages": [
+                          {
+                            "title": "Frontend",
+                            "path": "architecture-frontend",
+                            "icon": "lucide-monitor-stop"
+                          },
+                          {
+                            "title": "Backend",
+                            "path": "architecture-backend",
+                            "icon": "database-backup-icon"
+                          },
+                          {
+                            "title": "Source Code",
+                            "path": "source-code",
+                            "icon": "code-square"
+                          },
+                          {
+                            "title": "DB-Schema",
+                            "path": "db-schema",
+                            "icon": "database"
+                          }
+                        ],
+                        "icon": "construction"
                       },
                       {
-                        "title": "Fehlerhandling & Logging",
-                        "path": "errorhandling-logging",
-                        "icon": "lucide-monitor-stop"
-                      }
-                    ],
-                    "icon": "alarm-clock-check-icon"
-                  },
-                  {
-                    "group": "Schnittstellen",
-                    "pages": [
-                      {
-                        "title": "Upload CSV / XML",
-                        "path": "upload-csv-xml",
-                        "icon": "cloud-upload"
-                      },
-                      {
-                        "title": "Schnittstellen",
-                        "path": "interfaces",
-                        "icon": "arrow-down01-icon"
-                      }
-                    ],
-                    "icon": "align-vertical-distribute-center-icon"
-                  },
-                  {
-                    "group": "Architektur HW & SW",
-                    "pages": [
-                      {
-                        "title": "Frontend",
-                        "path": "architecture-frontend",
-                        "icon": "lucide-monitor-stop"
-                      },
-                      {
-                        "title": "Backend",
-                        "path": "architecture-backend",
-                        "icon": "database-backup-icon"
-                      },
-                      {
-                        "title": "Source Code",
-                        "path": "source-code",
-                        "icon": "code-square"
-                      },
-                      {
-                        "title": "DB-Schema",
-                        "path": "db-schema",
-                        "icon": "database"
-                      }
-                    ],
-                    "icon": "construction"
-                  },
-                  {
-                    "group": "Roadmap",
-                    "pages": [
-                      {
-                        "title": "Roadmap",
-                        "path": "roadmap",
+                        "group": "Roadmap",
+                        "pages": [
+                          {
+                            "title": "Roadmap",
+                            "path": "roadmap",
+                            "icon": "sunrise-icon"
+                          }
+                        ],
                         "icon": "sunrise-icon"
                       }
-                    ],
-                    "icon": "sunrise-icon"
+                    ]
                   }
                 ]
               },
