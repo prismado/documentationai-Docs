@@ -1,4 +1,13 @@
 ---
 title: Code-Review
 ---
-tbd
+## Rote Bereich bezüglich Authentifizierung
+
+### Authentifizierungs-Schwächen (2FA & Login)
+
+Quelle: Seite 15 
+
+Kritik:
+
+Die Implementierung der Zwei Faktor Authentifizierung weist logische Lücken auf. Der zweite Faktor im Loginablauf kann umgangen werden, da er serverseitig nicht für jede Session zwingend erzwungen wird. Zudem entsprechen Prozesse, bei denen Passwörter im Klartext per E-Mail versendet werden, nicht mehr den heutigen Sicherheitsanforderungen&#x20;
+
