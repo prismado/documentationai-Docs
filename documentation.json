@@ -166,6 +166,16 @@
                     "title": "DB-Schema",
                     "path": "db-schema",
                     "icon": "database"
+                  },
+                  {
+                    "title": "Source Code",
+                    "path": "source-code",
+                    "icon": "code-square"
+                  },
+                  {
+                    "title": "Code-Review",
+                    "path": "code-review",
+                    "icon": "lightbulb"
                   }
                 ],
                 "icon": "construction-icon"
@@ -190,16 +200,6 @@
                     "path": "basic-functions",
                     "icon": "cloud-cog-icon",
                     "public": true
-                  },
-                  {
-                    "title": "Source Code",
-                    "path": "source-code",
-                    "icon": "code-square"
-                  },
-                  {
-                    "title": "Code-Review",
-                    "path": "code-review",
-                    "icon": "lightbulb"
                   }
                 ],
                 "icon": "badge-plus-icon"
