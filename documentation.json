@@ -23,15 +23,15 @@
                 "icon": "lucide-rocket",
                 "pages": [
                   {
-                    "title": "Workflows",
-                    "path": "workflows",
-                    "icon": "workflow"
-                  },
-                  {
                     "title": "Einführung",
                     "path": "introduction",
                     "icon": "home",
                     "public": true
+                  },
+                  {
+                    "title": "Workflows",
+                    "path": "workflows",
+                    "icon": "workflow"
                   }
                 ],
                 "public": true
