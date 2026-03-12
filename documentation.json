@@ -41,6 +41,17 @@
             "public": true
           },
           {
+            "group": "Grundfunktionen",
+            "pages": [
+              {
+                "title": "Benutzerfunktionen",
+                "path": "user-functions",
+                "icon": "circle-user-round"
+              }
+            ],
+            "icon": "lucide-rocket"
+          },
+          {
             "group": "Authentifizierung",
             "pages": [
               {
