@@ -91,9 +91,10 @@
             "tab": "API",
             "pages": [
               {
-                "title": "test2",
-                "path": "test2",
-                "icon": "a-arrow-down"
+                "group": "API",
+                "pages": [],
+                "icon": "unplug",
+                "openapi": "api-reference/ssp-upload-api.yaml"
               }
             ],
             "icon": "unplug"
