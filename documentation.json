@@ -145,6 +145,17 @@
               }
             ],
             "icon": "construction"
+          },
+          {
+            "group": "Roadmap",
+            "pages": [
+              {
+                "title": "Roadmap",
+                "path": "roadmap",
+                "icon": "sunrise-icon"
+              }
+            ],
+            "icon": "sunrise-icon"
           }
         ]
       },
