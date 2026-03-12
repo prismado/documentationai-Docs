@@ -139,32 +139,6 @@
                               }
                             ],
                             "icon": "align-vertical-distribute-center-icon"
-                          },
-                          {
-                            "group": "Architektur HW & SW",
-                            "pages": [
-                              {
-                                "title": "Frontend",
-                                "path": "architecture-frontend",
-                                "icon": "lucide-monitor-stop"
-                              },
-                              {
-                                "title": "Backend",
-                                "path": "architecture-backend",
-                                "icon": "database-backup-icon"
-                              },
-                              {
-                                "title": "Source Code",
-                                "path": "source-code",
-                                "icon": "code-square"
-                              },
-                              {
-                                "title": "DB-Schema",
-                                "path": "db-schema",
-                                "icon": "database"
-                              }
-                            ],
-                            "icon": "construction"
                           }
                         ]
                       }
@@ -269,6 +243,32 @@
       {
         "dropdown": "New Entwickler",
         "pages": [
+          {
+            "group": "Architektur HW & SW",
+            "pages": [
+              {
+                "title": "Frontend",
+                "path": "architecture-frontend",
+                "icon": "lucide-monitor-stop"
+              },
+              {
+                "title": "Backend",
+                "path": "architecture-backend",
+                "icon": "database-backup-icon"
+              },
+              {
+                "title": "Source Code",
+                "path": "source-code",
+                "icon": "code-square"
+              },
+              {
+                "title": "DB-Schema",
+                "path": "db-schema",
+                "icon": "database"
+              }
+            ],
+            "icon": "construction"
+          },
           {
             "group": "Roadmap",
             "pages": [
