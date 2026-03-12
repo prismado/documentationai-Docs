@@ -90,6 +90,22 @@
             "icon": "alarm-clock-check-icon"
           },
           {
+            "group": "Architektur HW & SW",
+            "pages": [
+              {
+                "title": "Backend",
+                "path": "architecture-backend",
+                "icon": "database-backup-icon"
+              },
+              {
+                "title": "Frontend",
+                "path": "architecture-frontend",
+                "icon": "lucide-monitor-stop"
+              }
+            ],
+            "icon": "construction"
+          },
+          {
             "group": "Components",
             "icon": "layers",
             "pages": [
