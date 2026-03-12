@@ -13,186 +13,73 @@
       {
         "dropdown": "Allgemein",
         "icon": "lucide-globe",
-        "dropdowns": [
+        "pages": [
           {
-            "dropdown": "old Allg",
-            "icon": "lucide-globe",
-            "dropdowns": [
+            "group": "Authentifizierung",
+            "pages": [
               {
-                "dropdown": "zz tbd",
-                "tabs": [
-                  {
-                    "tab": "Dokumentation",
-                    "icon": "book",
-                    "dropdowns": [
-                      {
-                        "dropdown": "zz Entwickler",
-                        "icon": "code2",
-                        "groups": [
-                          {
-                            "group": "Start ",
-                            "icon": "rocket",
-                            "pages": [
-                              {
-                                "title": "Einführung",
-                                "path": "introduction",
-                                "icon": "home",
-                                "public": true
-                              },
-                              {
-                                "title": "Quickstart",
-                                "path": "quickstart",
-                                "icon": "zap",
-                                "public": false
-                              },
-                              {
-                                "title": "Workflows",
-                                "path": "workflows",
-                                "icon": "workflow"
-                              },
-                              {
-                                "title": "Komponenten",
-                                "path": "components",
-                                "icon": "cog",
-                                "public": false,
-                                "content-width": "wide"
-                              }
-                            ],
-                            "public": true
-                          },
-                          {
-                            "group": "Grundfunktionen",
-                            "pages": [
-                              {
-                                "title": "Benutzerfunktionen",
-                                "path": "user-functions",
-                                "icon": "circle-user-round",
-                                "public": true
-                              },
-                              {
-                                "title": "Administratoren und Spezialrollen",
-                                "path": "admin-special-functions",
-                                "icon": "crown-icon",
-                                "public": true
-                              },
-                              {
-                                "title": "Reporting",
-                                "path": "reporting",
-                                "icon": "area-chart"
-                              }
-                            ],
-                            "icon": "lucide-rocket",
-                            "public": true
-                          },
-                          {
-                            "group": "Authentifizierung",
-                            "pages": [
-                              {
-                                "title": "Login / Session",
-                                "path": "login-session",
-                                "icon": "lucide-shield-check"
-                              }
-                            ],
-                            "icon": "lucide-shield-check",
-                            "public": true
-                          }
-                        ]
-                      }
-                    ]
-                  },
-                  {
-                    "tab": "API Reference",
-                    "icon": "code",
-                    "groups": [
-                      {
-                        "group": "Übersicht",
-                        "icon": "file-text",
-                        "pages": [
-                          {
-                            "title": "Upload",
-                            "path": "api",
-                            "icon": "activity-square"
-                          }
-                        ]
-                      },
-                      {
-                        "group": "API Endpoints",
-                        "pages": [],
-                        "icon": "airplay",
-                        "openapi": "api-reference/ssp-upload-api.yaml"
-                      }
-                    ]
-                  },
-                  {
-                    "tab": "Help Center",
-                    "icon": "help-circle",
-                    "pages": [
-                      {
-                        "title": "Help Center",
-                        "path": "help-center",
-                        "icon": "home"
-                      },
-                      {
-                        "group": "FAQs",
-                        "icon": "help-circle",
-                        "expandable": false,
-                        "pages": [
-                          {
-                            "title": "Documentation Source",
-                            "path": "help-center/faq/getting-started"
-                          }
-                        ]
-                      },
-                      {
-                        "group": "Troubleshooting",
-                        "icon": "alert-triangle",
-                        "expandable": false,
-                        "pages": [
-                          {
-                            "title": "Page Missing in Sidebar",
-                            "path": "help-center/troubleshooting/install-error"
-                          }
-                        ]
-                      },
-                      {
-                        "group": "Guides",
-                        "icon": "book-open",
-                        "expandable": false,
-                        "pages": [
-                          {
-                            "title": "Create Your First Page",
-                            "path": "help-center/guides/setup-project"
-                          }
-                        ]
-                      }
-                    ]
-                  },
-                  {
-                    "tab": "Changelog",
-                    "icon": "clock",
-                    "pages": [
-                      {
-                        "title": "Changelog",
-                        "path": "changelog",
-                        "icon": "history"
-                      }
-                    ]
-                  }
-                ]
+                "title": "Login / Session",
+                "path": "login-session",
+                "icon": "lucide-shield-check"
+              }
+            ],
+            "icon": "lucide-shield-check",
+            "public": true
+          },
+          {
+            "group": "Start ",
+            "icon": "rocket",
+            "pages": [
+              {
+                "title": "Einführung",
+                "path": "introduction",
+                "icon": "home",
+                "public": true
+              },
+              {
+                "title": "Quickstart",
+                "path": "quickstart",
+                "icon": "zap",
+                "public": false
+              },
+              {
+                "title": "Workflows",
+                "path": "workflows",
+                "icon": "workflow"
+              },
+              {
+                "title": "Komponenten",
+                "path": "components",
+                "icon": "cog",
+                "public": false,
+                "content-width": "wide"
               }
             ],
             "public": true
           },
           {
-            "dropdown": "old Entwickler",
+            "group": "Grundfunktionen",
             "pages": [
               {
-                "title": "test",
-                "path": "test",
-                "icon": "a-large-small"
+                "title": "Benutzerfunktionen",
+                "path": "user-functions",
+                "icon": "circle-user-round",
+                "public": true
+              },
+              {
+                "title": "Administratoren und Spezialrollen",
+                "path": "admin-special-functions",
+                "icon": "crown-icon",
+                "public": true
+              },
+              {
+                "title": "Reporting",
+                "path": "reporting",
+                "icon": "area-chart"
               }
             ],
-            "icon": "code2-icon"
+            "icon": "lucide-rocket",
+            "public": true
           }
         ]
       },
