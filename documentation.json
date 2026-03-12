@@ -15,14 +15,14 @@
         "icon": "lucide-globe",
         "dropdowns": [
           {
-            "dropdown": "-",
+            "dropdown": "zz tbd",
             "tabs": [
               {
                 "tab": "Dokumentation",
                 "icon": "book",
                 "dropdowns": [
                   {
-                    "dropdown": "Entwickler",
+                    "dropdown": "zz Entwickler",
                     "icon": "code2",
                     "groups": [
                       {
