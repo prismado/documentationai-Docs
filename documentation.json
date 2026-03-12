@@ -122,6 +122,11 @@
                 "title": "Backend",
                 "path": "architecture-backend",
                 "icon": "database-backup-icon"
+              },
+              {
+                "title": "Source Code",
+                "path": "source-code",
+                "icon": "code-square"
               }
             ],
             "icon": "construction"
