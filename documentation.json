@@ -37,6 +37,29 @@
                 "public": true
               },
               {
+                "group": "Grundfunktionen",
+                "pages": [
+                  {
+                    "title": "Reporting",
+                    "path": "reporting",
+                    "icon": "area-chart"
+                  },
+                  {
+                    "title": "Administratoren und Spezialrollen",
+                    "path": "admin-special-functions",
+                    "icon": "crown-icon",
+                    "public": true
+                  },
+                  {
+                    "title": "Benutzerfunktionen",
+                    "path": "user-functions",
+                    "icon": "circle-user-round",
+                    "public": true
+                  }
+                ],
+                "icon": "lucide-rocket"
+              },
+              {
                 "group": "Authentifizierung",
                 "pages": [
                   {
@@ -66,29 +89,6 @@
                   }
                 ],
                 "icon": "warehouse"
-              },
-              {
-                "group": "Grundfunktionen",
-                "pages": [
-                  {
-                    "title": "Reporting",
-                    "path": "reporting",
-                    "icon": "area-chart"
-                  },
-                  {
-                    "title": "Administratoren und Spezialrollen",
-                    "path": "admin-special-functions",
-                    "icon": "crown-icon",
-                    "public": true
-                  },
-                  {
-                    "title": "Benutzerfunktionen",
-                    "path": "user-functions",
-                    "icon": "circle-user-round",
-                    "public": true
-                  }
-                ],
-                "icon": "lucide-rocket"
               }
             ]
           },
