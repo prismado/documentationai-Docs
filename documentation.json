@@ -93,14 +93,14 @@
             "group": "Architektur HW & SW",
             "pages": [
               {
-                "title": "Backend",
-                "path": "architecture-backend",
-                "icon": "database-backup-icon"
-              },
-              {
                 "title": "Frontend",
                 "path": "architecture-frontend",
                 "icon": "lucide-monitor-stop"
+              },
+              {
+                "title": "Backend",
+                "path": "architecture-backend",
+                "icon": "database-backup-icon"
               }
             ],
             "icon": "construction"
