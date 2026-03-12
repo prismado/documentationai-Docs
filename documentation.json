@@ -122,7 +122,7 @@
             "icon": "lucide-globe",
             "groups": [
               {
-                "group": "Meine Gruppe 603121",
+                "group": "Operations",
                 "icon": "airplay",
                 "pages": [
                   {
@@ -165,11 +165,6 @@
                         "title": "Upload CSV / XML",
                         "path": "upload-csv-xml",
                         "icon": "cloud-upload"
-                      },
-                      {
-                        "title": "Schnittstellen",
-                        "path": "interfaces",
-                        "icon": "arrow-down01-icon"
                       }
                     ],
                     "icon": "align-vertical-distribute-center-icon"
@@ -212,6 +207,17 @@
                     "icon": "sunrise-icon"
                   }
                 ]
+              },
+              {
+                "group": "Schnittstellen",
+                "pages": [
+                  {
+                    "title": "Schnittstellen",
+                    "path": "interfaces",
+                    "icon": "arrow-down01-icon"
+                  }
+                ],
+                "icon": "activity-square"
               }
             ]
           },
