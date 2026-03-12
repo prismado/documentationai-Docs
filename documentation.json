@@ -13,73 +13,79 @@
       {
         "dropdown": "Allgemein",
         "icon": "lucide-globe",
-        "pages": [
+        "tabs": [
           {
-            "group": "Authentifizierung",
+            "tab": "API",
+            "icon": "unplug",
             "pages": [
               {
-                "title": "Login / Session",
-                "path": "login-session",
-                "icon": "lucide-shield-check"
-              }
-            ],
-            "icon": "lucide-shield-check",
-            "public": true
-          },
-          {
-            "group": "Start ",
-            "icon": "rocket",
-            "pages": [
-              {
-                "title": "Einführung",
-                "path": "introduction",
-                "icon": "home",
+                "group": "Authentifizierung",
+                "pages": [
+                  {
+                    "title": "Login / Session",
+                    "path": "login-session",
+                    "icon": "lucide-shield-check"
+                  }
+                ],
+                "icon": "lucide-shield-check",
                 "public": true
               },
               {
-                "title": "Quickstart",
-                "path": "quickstart",
-                "icon": "zap",
-                "public": false
-              },
-              {
-                "title": "Workflows",
-                "path": "workflows",
-                "icon": "workflow"
-              },
-              {
-                "title": "Komponenten",
-                "path": "components",
-                "icon": "cog",
-                "public": false,
-                "content-width": "wide"
-              }
-            ],
-            "public": true
-          },
-          {
-            "group": "Grundfunktionen",
-            "pages": [
-              {
-                "title": "Benutzerfunktionen",
-                "path": "user-functions",
-                "icon": "circle-user-round",
+                "group": "Start ",
+                "icon": "rocket",
+                "pages": [
+                  {
+                    "title": "Einführung",
+                    "path": "introduction",
+                    "icon": "home",
+                    "public": true
+                  },
+                  {
+                    "title": "Quickstart",
+                    "path": "quickstart",
+                    "icon": "zap",
+                    "public": false
+                  },
+                  {
+                    "title": "Workflows",
+                    "path": "workflows",
+                    "icon": "workflow"
+                  },
+                  {
+                    "title": "Komponenten",
+                    "path": "components",
+                    "icon": "cog",
+                    "public": false,
+                    "content-width": "wide"
+                  }
+                ],
                 "public": true
               },
               {
-                "title": "Administratoren und Spezialrollen",
-                "path": "admin-special-functions",
-                "icon": "crown-icon",
+                "group": "Grundfunktionen",
+                "pages": [
+                  {
+                    "title": "Benutzerfunktionen",
+                    "path": "user-functions",
+                    "icon": "circle-user-round",
+                    "public": true
+                  },
+                  {
+                    "title": "Administratoren und Spezialrollen",
+                    "path": "admin-special-functions",
+                    "icon": "crown-icon",
+                    "public": true
+                  },
+                  {
+                    "title": "Reporting",
+                    "path": "reporting",
+                    "icon": "area-chart"
+                  }
+                ],
+                "icon": "lucide-rocket",
                 "public": true
-              },
-              {
-                "title": "Reporting",
-                "path": "reporting",
-                "icon": "area-chart"
               }
-            ],
-            "icon": "lucide-rocket",
-            "public": true
+            ]
           }
         ]
       },
