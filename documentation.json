@@ -77,6 +77,11 @@
                     "title": "Login / Session",
                     "path": "login-session",
                     "icon": "lucide-shield-check"
+                  },
+                  {
+                    "title": "SSO",
+                    "path": "sso",
+                    "icon": "key-round"
                   }
                 ],
                 "icon": "lucide-shield-check"
