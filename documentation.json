@@ -150,18 +150,6 @@
                 "icon": "activity-square"
               },
               {
-                "group": "Roadmap",
-                "pages": [
-                  {
-                    "title": "Roadmap",
-                    "path": "roadmap",
-                    "icon": "sunrise-icon"
-                  }
-                ],
-                "icon": "car",
-                "public": true
-              },
-              {
                 "group": "Architektur HW & SW",
                 "pages": [
                   {
@@ -181,6 +169,18 @@
                   }
                 ],
                 "icon": "construction-icon"
+              },
+              {
+                "group": "Roadmap",
+                "pages": [
+                  {
+                    "title": "Roadmap",
+                    "path": "roadmap",
+                    "icon": "sunrise-icon"
+                  }
+                ],
+                "icon": "car",
+                "public": true
               },
               {
                 "group": "Et cetera",
