@@ -191,6 +191,11 @@
                 "icon": "sunrise-icon"
               }
             ]
+          },
+          {
+            "tab": "API",
+            "pages": [],
+            "icon": "unplug"
           }
         ]
       }
