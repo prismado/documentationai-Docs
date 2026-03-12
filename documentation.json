@@ -123,22 +123,6 @@
                               }
                             ],
                             "icon": "alarm-clock-check-icon"
-                          },
-                          {
-                            "group": "Schnittstellen",
-                            "pages": [
-                              {
-                                "title": "Upload CSV / XML",
-                                "path": "upload-csv-xml",
-                                "icon": "cloud-upload"
-                              },
-                              {
-                                "title": "Schnittstellen",
-                                "path": "interfaces",
-                                "icon": "arrow-down01-icon"
-                              }
-                            ],
-                            "icon": "align-vertical-distribute-center-icon"
                           }
                         ]
                       }
@@ -243,6 +227,22 @@
       {
         "dropdown": "Entwickler",
         "pages": [
+          {
+            "group": "Schnittstellen",
+            "pages": [
+              {
+                "title": "Upload CSV / XML",
+                "path": "upload-csv-xml",
+                "icon": "cloud-upload"
+              },
+              {
+                "title": "Schnittstellen",
+                "path": "interfaces",
+                "icon": "arrow-down01-icon"
+              }
+            ],
+            "icon": "align-vertical-distribute-center-icon"
+          },
           {
             "group": "Architektur HW & SW",
             "pages": [
