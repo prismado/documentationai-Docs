@@ -198,7 +198,12 @@
                 "group": "API",
                 "pages": [
                   {
-                    "group": "API",
+                    "title": "tbd603121",
+                    "path": "tbd603121",
+                    "icon": "a-arrow-down"
+                  },
+                  {
+                    "group": "REST API",
                     "pages": [],
                     "icon": "unplug",
                     "openapi": "api-reference/ssp-upload-api.yaml"
@@ -207,7 +212,8 @@
                 "icon": "lucide-unplug"
               }
             ],
-            "icon": "unplug"
+            "icon": "unplug",
+            "public": true
           }
         ]
       }
