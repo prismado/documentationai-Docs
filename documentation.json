@@ -111,11 +111,6 @@
                 "icon": "airplay",
                 "pages": [
                   {
-                    "title": "Fehlerhandling & Logging",
-                    "path": "errorhandling-logging",
-                    "icon": "lucide-monitor-stop"
-                  },
-                  {
                     "title": "Status-Codes",
                     "path": "status-codes",
                     "icon": "alert-circle-icon",
@@ -125,6 +120,11 @@
                     "title": "Periodische Jobs",
                     "path": "periodical-jobs",
                     "icon": "lucide-truck"
+                  },
+                  {
+                    "title": "Fehlerhandling & Logging",
+                    "path": "errorhandling-logging",
+                    "icon": "lucide-monitor-stop"
                   }
                 ]
               },
