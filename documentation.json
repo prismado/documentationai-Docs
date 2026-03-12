@@ -11,11 +11,11 @@
   "navigation": {
     "dropdowns": [
       {
-        "dropdown": "Entwickler",
-        "icon": "code2-icon",
+        "dropdown": "Allgemein",
+        "icon": "lucide-globe",
         "dropdowns": [
           {
-            "dropdown": "Allgemein",
+            "dropdown": "zz Allgemein",
             "icon": "globe-icon",
             "tabs": [
               {
