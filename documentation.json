@@ -15,8 +15,7 @@
         "icon": "lucide-globe",
         "dropdowns": [
           {
-            "dropdown": "zz Allgemein",
-            "icon": "globe-icon",
+            "dropdown": "-",
             "tabs": [
               {
                 "tab": "Dokumentation",
