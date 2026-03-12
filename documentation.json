@@ -41,6 +41,12 @@
             "public": true
           },
           {
+            "group": "Authentifizierung",
+            "pages": [],
+            "icon": "lucide-shield-check",
+            "public": true
+          },
+          {
             "group": "Operations",
             "pages": [
               {
