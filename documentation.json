@@ -276,6 +276,11 @@
             "icon": "code2-icon"
           }
         ]
+      },
+      {
+        "dropdown": "New Entwickler",
+        "pages": [],
+        "icon": "code2-icon"
       }
     ]
   },
