@@ -254,19 +254,8 @@
             "public": true
           },
           {
-            "dropdown": "Entwickler",
+            "dropdown": "old Entwickler",
             "pages": [
-              {
-                "group": "Roadmap",
-                "pages": [
-                  {
-                    "title": "Roadmap",
-                    "path": "roadmap",
-                    "icon": "sunrise-icon"
-                  }
-                ],
-                "icon": "sunrise-icon"
-              },
               {
                 "title": "test",
                 "path": "test",
@@ -279,7 +268,19 @@
       },
       {
         "dropdown": "New Entwickler",
-        "pages": [],
+        "pages": [
+          {
+            "group": "Roadmap",
+            "pages": [
+              {
+                "title": "Roadmap",
+                "path": "roadmap",
+                "icon": "sunrise-icon"
+              }
+            ],
+            "icon": "sunrise-icon"
+          }
+        ],
         "icon": "code2-icon"
       }
     ]
