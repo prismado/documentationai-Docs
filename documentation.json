@@ -118,26 +118,20 @@
                 "icon": "airplay",
                 "pages": [
                   {
-                    "group": "zz Operations",
-                    "pages": [
-                      {
-                        "title": "Periodische Jobs",
-                        "path": "periodical-jobs",
-                        "icon": "lucide-truck"
-                      },
-                      {
-                        "title": "Status-Codes",
-                        "path": "status-codes",
-                        "icon": "alert-circle-icon",
-                        "public": true
-                      },
-                      {
-                        "title": "Fehlerhandling & Logging",
-                        "path": "errorhandling-logging",
-                        "icon": "lucide-monitor-stop"
-                      }
-                    ],
-                    "icon": "alarm-clock-check-icon"
+                    "title": "Fehlerhandling & Logging",
+                    "path": "errorhandling-logging",
+                    "icon": "lucide-monitor-stop"
+                  },
+                  {
+                    "title": "Status-Codes",
+                    "path": "status-codes",
+                    "icon": "alert-circle-icon",
+                    "public": true
+                  },
+                  {
+                    "title": "Periodische Jobs",
+                    "path": "periodical-jobs",
+                    "icon": "lucide-truck"
                   }
                 ]
               },
