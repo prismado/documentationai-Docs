@@ -46,10 +46,18 @@
               {
                 "title": "Benutzerfunktionen",
                 "path": "user-functions",
-                "icon": "circle-user-round"
+                "icon": "circle-user-round",
+                "public": true
+              },
+              {
+                "title": "Administratoren und Spezialrollen",
+                "path": "admin-special-functions",
+                "icon": "crown-icon",
+                "public": true
               }
             ],
-            "icon": "lucide-rocket"
+            "icon": "lucide-rocket",
+            "public": true
           },
           {
             "group": "Authentifizierung",
