@@ -90,6 +90,11 @@
                 "path": "status-codes",
                 "icon": "alert-circle-icon",
                 "public": true
+              },
+              {
+                "title": "Fehlerhandling & Logging",
+                "path": "errorhandling-logging",
+                "icon": "lucide-monitor-stop"
               }
             ],
             "icon": "alarm-clock-check-icon"
