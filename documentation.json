@@ -19,8 +19,8 @@
             "icon": "lucide-globe",
             "groups": [
               {
-                "group": "Meine Gruppe 603122",
-                "icon": "lucide-globe",
+                "group": "Start",
+                "icon": "lucide-rocket",
                 "pages": [
                   {
                     "group": "Start ",
@@ -74,14 +74,14 @@
                         "icon": "area-chart"
                       }
                     ],
-                    "icon": "lucide-rocket",
+                    "icon": "award",
                     "public": true
                   }
                 ],
                 "public": true
               },
               {
-                "group": "Zweite Gruppe",
+                "group": "Authentifizierung",
                 "pages": [
                   {
                     "group": "Authentifizierung",
@@ -96,7 +96,7 @@
                     "public": true
                   }
                 ],
-                "icon": "activity-square-icon"
+                "icon": "lucide-shield-check"
               }
             ]
           },
