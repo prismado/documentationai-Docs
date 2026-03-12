@@ -23,11 +23,6 @@
                 "icon": "lucide-globe",
                 "pages": [
                   {
-                    "title": "test asdf",
-                    "path": "test-asdf",
-                    "icon": "a-arrow-up-icon"
-                  },
-                  {
                     "group": "Start ",
                     "icon": "rocket",
                     "pages": [
@@ -56,18 +51,6 @@
                         "content-width": "wide"
                       }
                     ],
-                    "public": true
-                  },
-                  {
-                    "group": "Authentifizierung",
-                    "pages": [
-                      {
-                        "title": "Login / Session",
-                        "path": "login-session",
-                        "icon": "lucide-shield-check"
-                      }
-                    ],
-                    "icon": "lucide-shield-check",
                     "public": true
                   },
                   {
@@ -101,9 +84,16 @@
                 "group": "Zweite Gruppe",
                 "pages": [
                   {
-                    "title": "test xx",
-                    "path": "test-xx",
-                    "icon": "a-arrow-up"
+                    "group": "Authentifizierung",
+                    "pages": [
+                      {
+                        "title": "Login / Session",
+                        "path": "login-session",
+                        "icon": "lucide-shield-check"
+                      }
+                    ],
+                    "icon": "lucide-shield-check",
+                    "public": true
                   }
                 ],
                 "icon": "activity-square-icon"
