@@ -94,7 +94,19 @@
                     "icon": "lucide-rocket",
                     "public": true
                   }
-                ]
+                ],
+                "public": true
+              },
+              {
+                "group": "Zweite Gruppe",
+                "pages": [
+                  {
+                    "title": "test xx",
+                    "path": "test-xx",
+                    "icon": "a-arrow-up"
+                  }
+                ],
+                "icon": "activity-square-icon"
               }
             ]
           },
