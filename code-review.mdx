@@ -43,3 +43,9 @@ Kritikpunkt 2 kann man bei Gelegenheit anpassen. Falls die Benutzer jedoch strik
   **Kritikpunkt 2** kann bei Gelegenheit angepasst werden. Wenn Benutzer jedoch strikt MFA aktivieren, wäre es nicht kritisch, falls sie ihr 18-stelliges Passwort nicht sofort ändern.
 </Expandable>
 
+## Mögliche Lösungen <u>ohne</u> Upgrade auf SSO
+
+1. MFA künftig erzwingen (Kritikpunkt 1 gelöst)
+
+2. Registrationsprozess entweder anpassen, dass kein Initialpasswort mehr versendet wird, sondern eine URL mit Token und Ablaufzeit, wo der Benutzer sein (18-stelliges?) Passwort selber setzen muss **ODER:** Initialpasswort wird zwar verschickt, kann aber nicht für Login verwendet werden, solange dieses nicht geändert wurde - wahrscheinlich einfachere Implementierung (Kritikpunkt 2 gelöst)
+
