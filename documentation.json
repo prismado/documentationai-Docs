@@ -162,6 +162,27 @@
                 "public": true
               },
               {
+                "group": "Architektur HW & SW",
+                "pages": [
+                  {
+                    "title": "Backend",
+                    "path": "architecture-backend",
+                    "icon": "database-backup-icon"
+                  },
+                  {
+                    "title": "Frontend",
+                    "path": "architecture-frontend",
+                    "icon": "lucide-monitor-stop"
+                  },
+                  {
+                    "title": "DB-Schema",
+                    "path": "db-schema",
+                    "icon": "database"
+                  }
+                ],
+                "icon": "construction-icon"
+              },
+              {
                 "group": "Et cetera",
                 "pages": [
                   {
@@ -182,27 +203,6 @@
                   }
                 ],
                 "icon": "badge-plus-icon"
-              },
-              {
-                "group": "Architektur HW & SW",
-                "pages": [
-                  {
-                    "title": "Backend",
-                    "path": "architecture-backend",
-                    "icon": "database-backup-icon"
-                  },
-                  {
-                    "title": "Frontend",
-                    "path": "architecture-frontend",
-                    "icon": "lucide-monitor-stop"
-                  },
-                  {
-                    "title": "DB-Schema",
-                    "path": "db-schema",
-                    "icon": "database"
-                  }
-                ],
-                "icon": "construction-icon"
               }
             ]
           },
