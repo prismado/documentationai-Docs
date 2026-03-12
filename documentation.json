@@ -95,34 +95,6 @@
                             ],
                             "icon": "lucide-shield-check",
                             "public": true
-                          },
-                          {
-                            "group": "Operations",
-                            "pages": [
-                              {
-                                "title": "Periodische Jobs",
-                                "path": "periodical-jobs",
-                                "icon": "lucide-truck"
-                              },
-                              {
-                                "title": "Grundfunktionen",
-                                "path": "basic-functions",
-                                "icon": "cloud-cog-icon",
-                                "public": true
-                              },
-                              {
-                                "title": "Status-Codes",
-                                "path": "status-codes",
-                                "icon": "alert-circle-icon",
-                                "public": true
-                              },
-                              {
-                                "title": "Fehlerhandling & Logging",
-                                "path": "errorhandling-logging",
-                                "icon": "lucide-monitor-stop"
-                              }
-                            ],
-                            "icon": "alarm-clock-check-icon"
                           }
                         ]
                       }
@@ -227,6 +199,34 @@
       {
         "dropdown": "Entwickler",
         "pages": [
+          {
+            "group": "Operations",
+            "pages": [
+              {
+                "title": "Periodische Jobs",
+                "path": "periodical-jobs",
+                "icon": "lucide-truck"
+              },
+              {
+                "title": "Grundfunktionen",
+                "path": "basic-functions",
+                "icon": "cloud-cog-icon",
+                "public": true
+              },
+              {
+                "title": "Status-Codes",
+                "path": "status-codes",
+                "icon": "alert-circle-icon",
+                "public": true
+              },
+              {
+                "title": "Fehlerhandling & Logging",
+                "path": "errorhandling-logging",
+                "icon": "lucide-monitor-stop"
+              }
+            ],
+            "icon": "alarm-clock-check-icon"
+          },
           {
             "group": "Schnittstellen",
             "pages": [
