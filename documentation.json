@@ -140,29 +140,8 @@
                     "icon": "alarm-clock-check-icon"
                   },
                   {
-                    "group": "Architektur HW & SW",
-                    "pages": [
-                      {
-                        "title": "Frontend",
-                        "path": "architecture-frontend",
-                        "icon": "lucide-monitor-stop"
-                      },
-                      {
-                        "title": "Backend",
-                        "path": "architecture-backend",
-                        "icon": "database-backup-icon"
-                      },
-                      {
-                        "title": "Source Code",
-                        "path": "source-code",
-                        "icon": "code-square"
-                      },
-                      {
-                        "title": "DB-Schema",
-                        "path": "db-schema",
-                        "icon": "database"
-                      }
-                    ],
+                    "group": "zz Architektur HW & SW",
+                    "pages": [],
                     "icon": "construction"
                   }
                 ]
@@ -192,11 +171,17 @@
                     "icon": "sunrise-icon"
                   }
                 ],
-                "icon": "car"
+                "icon": "car",
+                "public": true
               },
               {
                 "group": "Et cetera",
                 "pages": [
+                  {
+                    "title": "Source Code",
+                    "path": "source-code",
+                    "icon": "code-square"
+                  },
                   {
                     "title": "Grundfunktionen",
                     "path": "basic-functions",
@@ -205,6 +190,27 @@
                   }
                 ],
                 "icon": "badge-plus-icon"
+              },
+              {
+                "group": "Architektur HW & SW",
+                "pages": [
+                  {
+                    "title": "Backend",
+                    "path": "architecture-backend",
+                    "icon": "database-backup-icon"
+                  },
+                  {
+                    "title": "Frontend",
+                    "path": "architecture-frontend",
+                    "icon": "lucide-monitor-stop"
+                  },
+                  {
+                    "title": "DB-Schema",
+                    "path": "db-schema",
+                    "icon": "database"
+                  }
+                ],
+                "icon": "construction-icon"
               }
             ]
           },
