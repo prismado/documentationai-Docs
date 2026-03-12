@@ -88,9 +88,15 @@
             ]
           },
           {
-            "tab": "Schnittstellen",
-            "pages": [],
-            "icon": "unplug"
+            "tab": "Support",
+            "pages": [
+              {
+                "title": "Kontakt",
+                "path": "contact",
+                "icon": "lucide-phone-call"
+              }
+            ],
+            "icon": "lucide-phone-call"
           }
         ]
       },
