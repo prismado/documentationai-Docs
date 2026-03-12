@@ -165,15 +165,20 @@
                 "group": "Et cetera",
                 "pages": [
                   {
+                    "title": "Grundfunktionen",
+                    "path": "basic-functions",
+                    "icon": "cloud-cog-icon",
+                    "public": true
+                  },
+                  {
                     "title": "Source Code",
                     "path": "source-code",
                     "icon": "code-square"
                   },
                   {
-                    "title": "Grundfunktionen",
-                    "path": "basic-functions",
-                    "icon": "cloud-cog-icon",
-                    "public": true
+                    "title": "Code-Review",
+                    "path": "code-review",
+                    "icon": "lightbulb"
                   }
                 ],
                 "icon": "badge-plus-icon"
