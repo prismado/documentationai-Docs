@@ -9,236 +9,248 @@
     }
   },
   "navigation": {
-    "tabs": [
+    "dropdowns": [
       {
-        "tab": "Dokumentation",
-        "icon": "book",
-        "groups": [
+        "dropdown": "Entwickler",
+        "icon": "code2-icon",
+        "dropdowns": [
           {
-            "group": "Start ",
-            "icon": "rocket",
-            "pages": [
+            "dropdown": "Allgemein",
+            "icon": "globe-icon",
+            "tabs": [
               {
-                "title": "Einführung",
-                "path": "introduction",
-                "icon": "home",
-                "public": true
+                "tab": "Dokumentation",
+                "icon": "book",
+                "groups": [
+                  {
+                    "group": "Start ",
+                    "icon": "rocket",
+                    "pages": [
+                      {
+                        "title": "Einführung",
+                        "path": "introduction",
+                        "icon": "home",
+                        "public": true
+                      },
+                      {
+                        "title": "Quickstart",
+                        "path": "quickstart",
+                        "icon": "zap",
+                        "public": false
+                      },
+                      {
+                        "title": "workflows",
+                        "path": "workflows",
+                        "icon": "workflow"
+                      },
+                      {
+                        "title": "Komponenten",
+                        "path": "components",
+                        "icon": "cog",
+                        "public": false,
+                        "content-width": "wide"
+                      }
+                    ],
+                    "public": true
+                  },
+                  {
+                    "group": "Grundfunktionen",
+                    "pages": [
+                      {
+                        "title": "Benutzerfunktionen",
+                        "path": "user-functions",
+                        "icon": "circle-user-round",
+                        "public": true
+                      },
+                      {
+                        "title": "Administratoren und Spezialrollen",
+                        "path": "admin-special-functions",
+                        "icon": "crown-icon",
+                        "public": true
+                      },
+                      {
+                        "title": "Reporting",
+                        "path": "reporting",
+                        "icon": "area-chart"
+                      }
+                    ],
+                    "icon": "lucide-rocket",
+                    "public": true
+                  },
+                  {
+                    "group": "Authentifizierung",
+                    "pages": [
+                      {
+                        "title": "Login / Session",
+                        "path": "login-session",
+                        "icon": "lucide-shield-check"
+                      }
+                    ],
+                    "icon": "lucide-shield-check",
+                    "public": true
+                  },
+                  {
+                    "group": "Operations",
+                    "pages": [
+                      {
+                        "title": "Periodische Jobs",
+                        "path": "periodical-jobs",
+                        "icon": "lucide-truck"
+                      },
+                      {
+                        "title": "Grundfunktionen",
+                        "path": "basic-functions",
+                        "icon": "cloud-cog-icon",
+                        "public": true
+                      },
+                      {
+                        "title": "Status-Codes",
+                        "path": "status-codes",
+                        "icon": "alert-circle-icon",
+                        "public": true
+                      },
+                      {
+                        "title": "Fehlerhandling & Logging",
+                        "path": "errorhandling-logging",
+                        "icon": "lucide-monitor-stop"
+                      }
+                    ],
+                    "icon": "alarm-clock-check-icon"
+                  },
+                  {
+                    "group": "Schnittstellen",
+                    "pages": [
+                      {
+                        "title": "Upload CSV / XML",
+                        "path": "upload-csv-xml",
+                        "icon": "cloud-upload"
+                      },
+                      {
+                        "title": "Schnittstellen",
+                        "path": "interfaces",
+                        "icon": "arrow-down01-icon"
+                      }
+                    ],
+                    "icon": "align-vertical-distribute-center-icon"
+                  },
+                  {
+                    "group": "Architektur HW & SW",
+                    "pages": [
+                      {
+                        "title": "Frontend",
+                        "path": "architecture-frontend",
+                        "icon": "lucide-monitor-stop"
+                      },
+                      {
+                        "title": "Backend",
+                        "path": "architecture-backend",
+                        "icon": "database-backup-icon"
+                      },
+                      {
+                        "title": "Source Code",
+                        "path": "source-code",
+                        "icon": "code-square"
+                      },
+                      {
+                        "title": "DB-Schema",
+                        "path": "db-schema",
+                        "icon": "database"
+                      }
+                    ],
+                    "icon": "construction"
+                  },
+                  {
+                    "group": "Roadmap",
+                    "pages": [
+                      {
+                        "title": "Roadmap",
+                        "path": "roadmap",
+                        "icon": "sunrise-icon"
+                      }
+                    ],
+                    "icon": "sunrise-icon"
+                  }
+                ]
               },
               {
-                "title": "Quickstart",
-                "path": "quickstart",
-                "icon": "zap",
-                "public": false
+                "tab": "API Reference",
+                "icon": "code",
+                "groups": [
+                  {
+                    "group": "Übersicht",
+                    "icon": "file-text",
+                    "pages": [
+                      {
+                        "title": "Upload",
+                        "path": "api",
+                        "icon": "activity-square"
+                      }
+                    ]
+                  },
+                  {
+                    "group": "API Endpoints",
+                    "pages": [],
+                    "icon": "airplay",
+                    "openapi": "api-reference/ssp-upload-api.yaml"
+                  }
+                ]
               },
               {
-                "title": "workflows",
-                "path": "workflows",
-                "icon": "workflow"
+                "tab": "Help Center",
+                "icon": "help-circle",
+                "pages": [
+                  {
+                    "title": "Help Center",
+                    "path": "help-center",
+                    "icon": "home"
+                  },
+                  {
+                    "group": "FAQs",
+                    "icon": "help-circle",
+                    "expandable": false,
+                    "pages": [
+                      {
+                        "title": "Documentation Source",
+                        "path": "help-center/faq/getting-started"
+                      }
+                    ]
+                  },
+                  {
+                    "group": "Troubleshooting",
+                    "icon": "alert-triangle",
+                    "expandable": false,
+                    "pages": [
+                      {
+                        "title": "Page Missing in Sidebar",
+                        "path": "help-center/troubleshooting/install-error"
+                      }
+                    ]
+                  },
+                  {
+                    "group": "Guides",
+                    "icon": "book-open",
+                    "expandable": false,
+                    "pages": [
+                      {
+                        "title": "Create Your First Page",
+                        "path": "help-center/guides/setup-project"
+                      }
+                    ]
+                  }
+                ]
               },
               {
-                "title": "Komponenten",
-                "path": "components",
-                "icon": "cog",
-                "public": false,
-                "content-width": "wide"
-              }
-            ],
-            "public": true
-          },
-          {
-            "group": "Grundfunktionen",
-            "pages": [
-              {
-                "title": "Benutzerfunktionen",
-                "path": "user-functions",
-                "icon": "circle-user-round",
-                "public": true
-              },
-              {
-                "title": "Administratoren und Spezialrollen",
-                "path": "admin-special-functions",
-                "icon": "crown-icon",
-                "public": true
-              },
-              {
-                "title": "Reporting",
-                "path": "reporting",
-                "icon": "area-chart"
-              }
-            ],
-            "icon": "lucide-rocket",
-            "public": true
-          },
-          {
-            "group": "Authentifizierung",
-            "pages": [
-              {
-                "title": "Login / Session",
-                "path": "login-session",
-                "icon": "lucide-shield-check"
-              }
-            ],
-            "icon": "lucide-shield-check",
-            "public": true
-          },
-          {
-            "group": "Operations",
-            "pages": [
-              {
-                "title": "Periodische Jobs",
-                "path": "periodical-jobs",
-                "icon": "lucide-truck"
-              },
-              {
-                "title": "Grundfunktionen",
-                "path": "basic-functions",
-                "icon": "cloud-cog-icon",
-                "public": true
-              },
-              {
-                "title": "Status-Codes",
-                "path": "status-codes",
-                "icon": "alert-circle-icon",
-                "public": true
-              },
-              {
-                "title": "Fehlerhandling & Logging",
-                "path": "errorhandling-logging",
-                "icon": "lucide-monitor-stop"
-              }
-            ],
-            "icon": "alarm-clock-check-icon"
-          },
-          {
-            "group": "Schnittstellen",
-            "pages": [
-              {
-                "title": "Upload CSV / XML",
-                "path": "upload-csv-xml",
-                "icon": "cloud-upload"
-              },
-              {
-                "title": "Schnittstellen",
-                "path": "interfaces",
-                "icon": "arrow-down01-icon"
-              }
-            ],
-            "icon": "align-vertical-distribute-center-icon"
-          },
-          {
-            "group": "Architektur HW & SW",
-            "pages": [
-              {
-                "title": "Frontend",
-                "path": "architecture-frontend",
-                "icon": "lucide-monitor-stop"
-              },
-              {
-                "title": "Backend",
-                "path": "architecture-backend",
-                "icon": "database-backup-icon"
-              },
-              {
-                "title": "Source Code",
-                "path": "source-code",
-                "icon": "code-square"
-              },
-              {
-                "title": "DB-Schema",
-                "path": "db-schema",
-                "icon": "database"
-              }
-            ],
-            "icon": "construction"
-          },
-          {
-            "group": "Roadmap",
-            "pages": [
-              {
-                "title": "Roadmap",
-                "path": "roadmap",
-                "icon": "sunrise-icon"
-              }
-            ],
-            "icon": "sunrise-icon"
-          }
-        ]
-      },
-      {
-        "tab": "API Reference",
-        "icon": "code",
-        "groups": [
-          {
-            "group": "Übersicht",
-            "icon": "file-text",
-            "pages": [
-              {
-                "title": "Upload",
-                "path": "api",
-                "icon": "activity-square"
+                "tab": "Changelog",
+                "icon": "clock",
+                "pages": [
+                  {
+                    "title": "Changelog",
+                    "path": "changelog",
+                    "icon": "history"
+                  }
+                ]
               }
             ]
-          },
-          {
-            "group": "API Endpoints",
-            "pages": [],
-            "icon": "airplay",
-            "openapi": "api-reference/ssp-upload-api.yaml"
-          }
-        ]
-      },
-      {
-        "tab": "Help Center",
-        "icon": "help-circle",
-        "pages": [
-          {
-            "title": "Help Center",
-            "path": "help-center",
-            "icon": "home"
-          },
-          {
-            "group": "FAQs",
-            "icon": "help-circle",
-            "expandable": false,
-            "pages": [
-              {
-                "title": "Documentation Source",
-                "path": "help-center/faq/getting-started"
-              }
-            ]
-          },
-          {
-            "group": "Troubleshooting",
-            "icon": "alert-triangle",
-            "expandable": false,
-            "pages": [
-              {
-                "title": "Page Missing in Sidebar",
-                "path": "help-center/troubleshooting/install-error"
-              }
-            ]
-          },
-          {
-            "group": "Guides",
-            "icon": "book-open",
-            "expandable": false,
-            "pages": [
-              {
-                "title": "Create Your First Page",
-                "path": "help-center/guides/setup-project"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "Changelog",
-        "icon": "clock",
-        "pages": [
-          {
-            "title": "Changelog",
-            "path": "changelog",
-            "icon": "history"
           }
         ]
       }
