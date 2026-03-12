@@ -3,8 +3,16 @@ title: Backend
 ---
 ## Übersicht
 
-|   |   |   |
-| - | - | - |
-|   |   |   |
-|   |   |   |
+| Komponente         | Technologie / Produkt                | Funktion & Sicherheitsmaßnahmen                                                                                      |
+| ------------------ | ------------------------------------ | -------------------------------------------------------------------------------------------------------------------- |
+| Host OS            | Debian GNU/Linux (Stable)            | Basisbetriebssystem, gehärtet.                                                                                       |
+| Netzwerksicherheit | iptables Firewall                    | Beschränkung des eingehenden Traffics auf Ports 80/443 (Public) und IP-Whitelist-Management bei Port 22              |
+| Remote-Zugriff     | OpenSSH Server                       | Management-Zugang. Härtung: Zugriff nur via SSH-Key und beschränkt auf dedizierte Management-IP-Adressen (Whitelist) |
+| Container Runtime  | Docker Engine                        | Isolierte Ausführung der Applikationsdienste.                                                                        |
+| Orchestrierung     | Dokploy (Self-Hosted)                | Lokale Plattform für Deployment und Verwaltung der Container. Kein externer Cloud-Zugriff.                           |
+| Reverse Proxy      | NGINX                                | SSL/TLS-Terminierung und Routing des Web-Traffics an den Applikationscontainer.                                      |
+| Webserver          | Apache HTTP Server                   | Ausführung der Frontend-/Backend-Applikation.                                                                        |
+| Datenbank          | MariaDB (LTS Version)                | Relationale Datenbank, nur intern vom Applikationsserver erreichbar.                                                 |
+| Programmierung     | mod\_perl / Perl 5.36 / Mason / HTMX | Serviceportal Webapplikation                                                                                         |
+| Authentifizierung  | Cookie-based, verschlüsselt          | Passwort-Hash mit Argon2; 2FA / Token mit Data-at-Rest; Optional: SSO-Authentifizierung via Entra                    |
 
