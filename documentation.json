@@ -137,6 +137,11 @@
                 "title": "Source Code",
                 "path": "source-code",
                 "icon": "code-square"
+              },
+              {
+                "title": "DB-Schema",
+                "path": "db-schema",
+                "icon": "database"
               }
             ],
             "icon": "construction"
