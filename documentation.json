@@ -59,6 +59,11 @@
                 "path": "admin-special-functions",
                 "icon": "crown-icon",
                 "public": true
+              },
+              {
+                "title": "Reporting",
+                "path": "reporting",
+                "icon": "area-chart"
               }
             ],
             "icon": "lucide-rocket",
