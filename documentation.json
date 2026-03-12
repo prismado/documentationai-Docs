@@ -42,7 +42,13 @@
           },
           {
             "group": "Authentifizierung",
-            "pages": [],
+            "pages": [
+              {
+                "title": "Login / Session",
+                "path": "login-session",
+                "icon": "lucide-shield-check"
+              }
+            ],
             "icon": "lucide-shield-check",
             "public": true
           },
