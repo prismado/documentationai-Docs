@@ -75,6 +75,11 @@
             "group": "Operations",
             "pages": [
               {
+                "title": "Periodische Jobs",
+                "path": "periodical-jobs",
+                "icon": "lucide-truck"
+              },
+              {
                 "title": "Grundfunktionen",
                 "path": "basic-functions",
                 "icon": "cloud-cog-icon",

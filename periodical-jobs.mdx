@@ -1,0 +1,16 @@
+---
+title: Periodische Jobs
+---
+- Applikatorische Aufgaben
+
+- System-Wartung / Cleanup
+
+## Plattform-Jobs (cron)
+
+| Cron-Frequenz        | Beschreibung                                                                 |
+|----------------------|------------------------------------------------------------------------------|
+| */29 10-18 * * 1-6   | collect_order_confirmations (Bestellbestätigungen abholen)                 |
+| 17 07,11,22 * * *    | get_assigned_users_from_m42 (Meldung von Assigned Usern aus M42 abholen und verarbeiten) |
+| 51 10,16,21 * * 1-6  | backup (Datenbank-Backup der Bewegungsdaten)                               |
+| 00 15 * * 1-6        | cleanup (Löschen von bereits übermittelten DB Dumps älter als 20 Tage)     |
+
