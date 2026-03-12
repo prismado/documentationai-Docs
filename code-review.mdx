@@ -25,7 +25,11 @@ Kritik:
 
 Kurze Rückmeldung:
 
-XX
+Beide Punkte liessen sich kurzfristig durch den lange gewünschten Upgrade zu SSO lösen (Change Request beim KTAG pendent).
+
+Kritikpunkt 1 kann ich nicht nachvollziehen. Ein Seitenaufruf startet eine Session, aber diese ist nicht autorisiert, solange das aktuelle Token nicht korrekt eingegeben wurde. Was möglich ist - aber bewusst so implementiert wurde: MFA wird derzeit nicht erzwungen. Der Benutzer kann es a) nach seiner Selbstregistrierung jedes Mal mit "auf später" ablehnen. Nach seinem Login kann er oder ein Administrator 2FA auch deaktivieren. Auch dies wurde bewusst so implementiert, um den Support bei Zugangsproblemen zu minimieren.
+
+Kritikpunkt 2 kann man bei Gelegenheit anpassen. Falls die Benutzer jedoch strikt MFA aktivieren, wäre es nicht tragisch, falls sie ihr 18-stelliges Passwort nicht sofort ändern würden.
 
 <Expandable title="Ausführliche Rückmeldung" default-open="false">
   In Arbeit
