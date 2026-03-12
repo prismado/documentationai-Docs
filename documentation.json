@@ -38,7 +38,7 @@
               {
                 "title": "Komponenten",
                 "path": "components",
-                "icon": "code",
+                "icon": "cog",
                 "public": false,
                 "content-width": "wide"
               }
