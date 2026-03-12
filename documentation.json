@@ -23,15 +23,15 @@
                 "icon": "lucide-rocket",
                 "pages": [
                   {
-                    "group": "Start ",
+                    "title": "Einführung",
+                    "path": "introduction",
+                    "icon": "home",
+                    "public": true
+                  },
+                  {
+                    "group": "zz Start ",
                     "icon": "rocket",
                     "pages": [
-                      {
-                        "title": "Einführung",
-                        "path": "introduction",
-                        "icon": "home",
-                        "public": true
-                      },
                       {
                         "title": "Quickstart",
                         "path": "quickstart",
