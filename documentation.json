@@ -31,6 +31,11 @@
                 "public": false
               },
               {
+                "title": "workflows",
+                "path": "workflows",
+                "icon": "workflow"
+              },
+              {
                 "title": "Komponenten",
                 "path": "components",
                 "icon": "code",
