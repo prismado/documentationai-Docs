@@ -127,6 +127,11 @@
                 "icon": "airplay",
                 "pages": [
                   {
+                    "title": "Installation",
+                    "path": "installation",
+                    "icon": "lucide-wrench"
+                  },
+                  {
                     "title": "Periodische Jobs",
                     "path": "periodical-jobs",
                     "icon": "lucide-truck"
