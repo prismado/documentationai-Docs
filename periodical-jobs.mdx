@@ -16,8 +16,8 @@ title: Periodische Jobs
 
 ## Reporting
 
-| Cron-Frequenz     | Beschreibung                                                            |
-| ----------------- | ----------------------------------------------------------------------- |
-| 59 \*/3 \* \* \*  | load\_postgres (Bestellungen in Postgres-Tabellen laden für PowerBI)    |
-| 00 07-22 \* \* \* | load\_postgres\_articles (Bestellte Artikel laden mit aktuellem Status) |
+| Cron-Frequenz    | Beschreibung                                                            |
+| ---------------- | ----------------------------------------------------------------------- |
+| `59 */3 * * *`   | load\_postgres (Bestellungen in Postgres-Tabellen laden für PowerBI)    |
+| `00 07-22 * * *` | load\_postgres\_articles (Bestellte Artikel laden mit aktuellem Status) |
 
