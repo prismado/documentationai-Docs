@@ -7,17 +7,17 @@ title: Periodische Jobs
 
 ## Plattform-Jobs (cron)
 
-| Cron-Frequenz         | Beschreibung                                                                                 |
-| --------------------- | -------------------------------------------------------------------------------------------- |
-| \*/29 10-18 \* \* 1-6 | collect\_order\_confirmations (Bestellbestätigungen abholen)                                 |
-| 17 07,11,22 \* \* \*  | get\_assigned\_users\_from\_m42 (Meldung von Assigned Usern aus M42 abholen und verarbeiten) |
-| 51 10,16,21 \* \* 1-6 | backup (Datenbank-Backup der Bewegungsdaten)                                                 |
-| 00 15 \* \* 1-6       | cleanup (Löschen von bereits übermittelten DB Dumps älter als 20 Tage)                       |
+| Cron-Frequenz         | Skript                                      | Beschreibung                                                 |
+| --------------------- | ------------------------------------------- | ------------------------------------------------------------ |
+| \*/29 10-18 \* \* 1-6 | <kbd>collect\_order\_confirmations</kbd>    | Bestellbestätigungen abholen                                 |
+| 17 07,11,22 \* \* \*  | <kbd>get\_assigned\_users\_from\_m42</kbd>  | Meldung von Assigned Usern aus M42 abholen und verarbeiten   |
+| 51 10,16,21 \* \* 1-6 | <kbd>backup</kbd>                           | Datenbank-Backup der Bewegungsdaten                          |
+| 00 15 \* \* 1-6       | <kbd>cleanup</kbd>                          | Löschen von bereits übermittelten DB Dumps älter als 20 Tage |
 
 ## Reporting
 
-| Cron-Frequenz | Beschreibung                                                                 |
-|----------------|------------------------------------------------------------------------------|
-| 59 */3 * * *   | load_postgres (Bestellungen in Postgres-Tabellen laden für PowerBI)        |
-| 00 07-22 * * * | load_postgres_articles (Bestellte Artikel laden mit aktuellem Status)      |
+| Cron-Frequenz     | Beschreibung                                                            |
+| ----------------- | ----------------------------------------------------------------------- |
+| 59 \*/3 \* \* \*  | load\_postgres (Bestellungen in Postgres-Tabellen laden für PowerBI)    |
+| 00 07-22 \* \* \* | load\_postgres\_articles (Bestellte Artikel laden mit aktuellem Status) |
 
