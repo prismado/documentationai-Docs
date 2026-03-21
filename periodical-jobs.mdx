@@ -9,10 +9,10 @@ title: Periodische Jobs
 
 | Cron-Frequenz         | Skript                                      | Beschreibung                                                 |
 | --------------------- | ------------------------------------------- | ------------------------------------------------------------ |
-| \*/29 10-18 \* \* 1-6 | <kbd>collect\_order\_confirmations</kbd>    | Bestellbestätigungen abholen                                 |
-| 17 07,11,22 \* \* \*  | <kbd>get\_assigned\_users\_from\_m42</kbd>  | Meldung von Assigned Usern aus M42 abholen und verarbeiten   |
-| 51 10,16,21 \* \* 1-6 | <kbd>backup</kbd>                           | Datenbank-Backup der Bewegungsdaten                          |
-| 00 15 \* \* 1-6       | <kbd>cleanup</kbd>                          | Löschen von bereits übermittelten DB Dumps älter als 20 Tage |
+| `*/29 10-18 * * 1-6`  | <kbd>collect\_order\_confirmations</kbd>    | Bestellbestätigungen abholen                                 |
+| `17 07,11,22 * * *`   | <kbd>get\_assigned\_users\_from\_m42</kbd>  | Meldung von Assigned Usern aus M42 abholen und verarbeiten   |
+| `51 10,16,21 * * 1-6` | <kbd>backup</kbd>                           | Datenbank-Backup der Bewegungsdaten                          |
+| `00 15 * * 1-6`       | <kbd>cleanup</kbd>                          | Löschen von bereits übermittelten DB Dumps älter als 20 Tage |
 
 ## Reporting
 
