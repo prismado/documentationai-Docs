@@ -7,7 +7,7 @@ title: Periodische Jobs
 
 ## Plattform-Jobs (cron)
 
-| Cron-Frequenz         | Skript                                      | Beschreibung                                                 |
+| Cron-Frequenz         | Job                                         | Beschreibung                                                 |
 | --------------------- | ------------------------------------------- | ------------------------------------------------------------ |
 | `*/29 10-18 * * 1-6`  | <kbd>collect\_order\_confirmations</kbd>    | Bestellbestätigungen abholen                                 |
 | `17 07,11,22 * * *`   | <kbd>get\_assigned\_users\_from\_m42</kbd>  | Meldung von Assigned Usern aus M42 abholen und verarbeiten   |
@@ -16,8 +16,8 @@ title: Periodische Jobs
 
 ## Reporting
 
-| Cron-Frequenz    | Beschreibung                                                            |
-| ---------------- | ----------------------------------------------------------------------- |
-| `59 */3 * * *`   | load\_postgres (Bestellungen in Postgres-Tabellen laden für PowerBI)    |
-| `00 07-22 * * *` | load\_postgres\_articles (Bestellte Artikel laden mit aktuellem Status) |
+| Cron-Frequenz    | Job                                  | Beschreibung                                        |
+| ---------------- | ------------------------------------ | --------------------------------------------------- |
+| `59 */3 * * *`   | <kbd>load\_postgres</kbd>            | Bestellungen in Postgres-Tabellen laden für PowerBI |
+| `00 07-22 * * *` | <kbd>load\_postgres\_articles</kbd>  | Bestellte Artikel laden mit aktuellem Status        |
 
