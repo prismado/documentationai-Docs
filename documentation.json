@@ -107,7 +107,8 @@
               {
                 "title": "Kontakt",
                 "path": "contact",
-                "icon": "lucide-phone-call"
+                "icon": "lucide-phone-call",
+                "public": true
               }
             ],
             "icon": "lucide-phone-call"
