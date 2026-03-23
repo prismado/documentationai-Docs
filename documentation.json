@@ -50,6 +50,11 @@
                     "public": true
                   },
                   {
+                    "title": "Passwort vergessen",
+                    "path": "user-function-forgot-password",
+                    "icon": "life-buoy"
+                  },
+                  {
                     "title": "Administratoren und Spezialrollen",
                     "path": "admin-special-functions",
                     "icon": "crown-icon",
