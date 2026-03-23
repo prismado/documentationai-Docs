@@ -146,6 +146,11 @@
                     "title": "Fehlerhandling & Logging",
                     "path": "errorhandling-logging",
                     "icon": "lucide-monitor-stop"
+                  },
+                  {
+                    "title": "Passwort vergessen",
+                    "path": "dev-user-function-forgot-password",
+                    "icon": "life-buoy"
                   }
                 ]
               },
