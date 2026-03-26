@@ -52,7 +52,8 @@
                   {
                     "title": "Passwort vergessen",
                     "path": "user-function-forgot-password",
-                    "icon": "life-buoy"
+                    "icon": "life-buoy",
+                    "public": true
                   },
                   {
                     "title": "Administratoren und Spezialrollen",
