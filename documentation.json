@@ -268,7 +268,7 @@
                 "pages": [
                   {
                     "title": "Übersicht",
-                    "path": "csp-general-index2",
+                    "path": "csp-general-index",
                     "icon": "alert-circle"
                   }
                 ],
