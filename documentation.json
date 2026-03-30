@@ -298,8 +298,8 @@
             "icon": "lucide-pocket-knife",
             "groups": [
               {
-                "group": "Gruppe 2",
-                "icon": "activity-square",
+                "group": "Übersicht",
+                "icon": "lucide-rocket",
                 "pages": [
                   {
                     "group": "Grundlegendes",
