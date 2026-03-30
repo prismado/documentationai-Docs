@@ -263,13 +263,13 @@
             "icon": "lucide-user2",
             "groups": [
               {
-                "group": "Übersicht",
+                "group": "Einführung",
                 "icon": "lucide-rocket",
                 "pages": [
                   {
-                    "title": "Übersicht",
+                    "title": "Erste Schritte",
                     "path": "csp-general-index",
-                    "icon": "alert-circle"
+                    "icon": "lucide-rocket"
                   }
                 ],
                 "public": true
