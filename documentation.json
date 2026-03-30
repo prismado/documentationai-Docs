@@ -253,6 +253,11 @@
             "public": true
           }
         ]
+      },
+      {
+        "dropdown": "CSP",
+        "pages": [],
+        "icon": "lucide-warehouse"
       }
     ]
   },
