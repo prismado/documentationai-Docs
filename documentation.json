@@ -270,12 +270,17 @@
                     "title": "Erste Schritte",
                     "path": "csp-general-index",
                     "icon": "lucide-rocket"
+                  },
+                  {
+                    "title": "Funktionen",
+                    "path": "funktionen",
+                    "icon": "a-large-small-icon"
                   }
                 ],
                 "public": true
               },
               {
-                "group": "Prozesse",
+                "group": "DWH / PowerBI",
                 "pages": [
                   {
                     "group": "Prozesse",
