@@ -261,22 +261,51 @@
           {
             "tab": "Allgemein",
             "icon": "lucide-user2",
-            "pages": []
+            "groups": [
+              {
+                "group": "Gruppe 603301",
+                "icon": "lucide-rocket",
+                "pages": []
+              }
+            ]
           },
           {
             "tab": "Entwickler",
             "icon": "lucide-pocket-knife",
-            "pages": [
+            "groups": [
               {
-                "group": "Grundlegendes",
+                "group": "Gruppe 2",
+                "icon": "activity-square",
                 "pages": [
                   {
-                    "title": "Übersicht",
-                    "path": "csp-devel-index",
+                    "group": "Grundlegendes",
+                    "pages": [
+                      {
+                        "title": "Übersicht",
+                        "path": "csp-devel-index",
+                        "icon": "lucide-rocket"
+                      }
+                    ],
                     "icon": "lucide-rocket"
                   }
+                ]
+              },
+              {
+                "group": "Gruppe xy",
+                "pages": [
+                  {
+                    "group": "Seitengruppe",
+                    "pages": [
+                      {
+                        "title": "tbd",
+                        "path": "tbd603301",
+                        "icon": "album-icon"
+                      }
+                    ],
+                    "icon": "alert-circle-icon"
+                  }
                 ],
-                "icon": "lucide-rocket"
+                "icon": "alarm-minus"
               }
             ]
           }
