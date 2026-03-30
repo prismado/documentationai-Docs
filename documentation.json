@@ -278,10 +278,15 @@
                 "group": "Prozesse",
                 "pages": [
                   {
-                    "group": "page group asdf",
+                    "group": "Prozesse",
                     "pages": [
                       {
-                        "title": "tbd asdf",
+                        "title": "CSP-seitig",
+                        "path": "csp-process",
+                        "icon": "brain-cog"
+                      },
+                      {
+                        "title": "SSP-seitig",
                         "path": "tbd-asdf",
                         "icon": "a-large-small"
                       }
