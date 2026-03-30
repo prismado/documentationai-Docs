@@ -269,7 +269,8 @@
                   {
                     "title": "Übersicht",
                     "path": "csp-general-index",
-                    "icon": "circle-user"
+                    "icon": "circle-user",
+                    "public": true
                   }
                 ]
               }
