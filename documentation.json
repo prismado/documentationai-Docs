@@ -256,8 +256,19 @@
       },
       {
         "dropdown": "CSP",
-        "pages": [],
-        "icon": "lucide-warehouse"
+        "icon": "lucide-warehouse",
+        "tabs": [
+          {
+            "tab": "Entwickler",
+            "icon": "lucide-pocket-knife",
+            "pages": []
+          },
+          {
+            "tab": "Allgemein",
+            "pages": [],
+            "icon": "lucide-user2"
+          }
+        ]
       }
     ]
   },
