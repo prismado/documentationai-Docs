@@ -14,9 +14,33 @@ description: >-
     Sales Order Number;Product ID;Serial Number;MAC Adresses;WLAN MAC;UUID
 </Update>
 
+### Die wichtigsten Punkte des CSV-Inventar-Uploads
+
+1. Bestimmte CSV-Header-Label auf der ersten Zeile sind genau vorgeschrieben (siehe Punkt 2).\
+   Alle Mandatory-Labels müssen vollständig vorhanden sein.\
+   Die Reihenvolge der **durch Semikolon (;) getrennten** Labels spielt jedoch keine Rolle.\
+   Sie können zusätzliche, selbst definierte Spalten anbringen, die für die Verarbeitung ignoriert, aber gespeichert werden.\
+   (NB: Semikolon gilt bei Inventar-Upload - bei PKID-Reports hat sich der CSP für Komma-Trennung (,) entschieden)
+
+2. Die Pflichtfelder im CSV Header (Labels) für den Upload-Typ "INV" (Inventardaten der Bestellung) lauten:\
+   **Sales Order Number,Product ID,Serial Number,MAC Adresses,WLAN MAC,UUID**\
+   Achtung: Die Vorgabe verlangt, dass das Pflichtlabel "MAC Adresses" absichtlich falsch - mit nur einem "d" geschrieben werden muss.
+
+3. Die Dateikodierung kann in Windows- oder UTF-Format vorliegen, solange die enthaltenen Daten innerhalb des ASCII-Spektrums bleiben.\
+   Falls Umlaute oder Sonderzeichen enthalten sein könnten, wird das UTF-8-Dateiformat vorgeschrieben
+
+4. Der Dateiname für Ihre CSV-Datei ist irelevant, jedoch wird die Endung **.csv** empfohlen und künftig **<u>keine</u>****&#x20;Leerschläge in Dateinamen** zu verwenden\
+   (Leerschläge im Dateinamen sind jedoch möglich)
+
+5. Überschüssige Leerzeilen oder Dummy-Zeilen wie ;;;;;; am Ende der Import-Datei sollten vermieden werden, auch wenn sie ignoriert werden.
+
+6. Nach dem Upload muss die SSG nicht manuell verständigt werden.\
+   Dem Benutzer, der eine Datei hochlädt, erhält eine Bestätigung in der Web App.\
+   Der Upload-Verlauf wird unter "Verlauf" angezeigt, wo Sie das Ergebnis selber abrufen können.
+
 ### Beispieldaten
 
-```typescript
+```bash
 Sales Order Number;Product ID;Serial Number;MAC Adresses;WLAN MAC;UUID;Bestellnummer SSP
 1234;21R4S09E00;595RegistrationTeilUploadR10SerieNr1;MAC123A;WLMAC123A;UUID601231;595
 ```
