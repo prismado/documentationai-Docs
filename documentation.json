@@ -275,7 +275,7 @@
                 "public": true
               },
               {
-                "group": "Gruppe tbd xy",
+                "group": "Prozesse",
                 "pages": [
                   {
                     "group": "Gruppe xxaa",
@@ -289,7 +289,7 @@
                     "icon": "album-icon"
                   }
                 ],
-                "icon": "alert-circle-icon"
+                "icon": "cog"
               }
             ]
           },
