@@ -265,7 +265,30 @@
               {
                 "group": "Gruppe 603301",
                 "icon": "lucide-rocket",
-                "pages": []
+                "pages": [
+                  {
+                    "title": "Übersicht",
+                    "path": "csp-general-index2",
+                    "icon": "alert-circle"
+                  }
+                ]
+              },
+              {
+                "group": "Gruppe tbd xy",
+                "pages": [
+                  {
+                    "group": "Gruppe xxaa",
+                    "pages": [
+                      {
+                        "title": "tbd xx",
+                        "path": "tbd-xx-ee",
+                        "icon": "alert-circle"
+                      }
+                    ],
+                    "icon": "album-icon"
+                  }
+                ],
+                "icon": "alert-circle-icon"
               }
             ]
           },
