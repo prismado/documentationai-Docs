@@ -21,3 +21,13 @@ title: Periodische Jobs
 | `59 */3 * * *`   | <kbd>load\_postgres</kbd>            | Bestellungen in Postgres-Tabellen laden für PowerBI |
 | `00 07-22 * * *` | <kbd>load\_postgres\_articles</kbd>  | Bestellte Artikel laden mit aktuellem Status        |
 
+### Reporting manuell start (Entwicklung / Debugging)
+
+```bash
+export db_host=$DB_HOST; /var/www/html/_systex/load_postgres.pl --db $DB_NAME --ext_table Orders_stage
+```
+
+## Hinweise
+
+Eine an das DWH übermittelte Bestellung verleibt in der Postgres-DB unverändert; Aktualisierungen sind derzeit nicht vorgesehen.
+
