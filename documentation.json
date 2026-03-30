@@ -261,20 +261,7 @@
           {
             "tab": "Allgemein",
             "icon": "lucide-user2",
-            "groups": [
-              {
-                "group": "Grundfunktionen",
-                "icon": "lucide-pen-tool",
-                "pages": [
-                  {
-                    "title": "Übersicht",
-                    "path": "csp-general-index",
-                    "icon": "circle-user",
-                    "public": true
-                  }
-                ]
-              }
-            ]
+            "pages": []
           },
           {
             "tab": "Entwickler",
