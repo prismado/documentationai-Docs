@@ -274,7 +274,7 @@
                   {
                     "title": "Funktionen",
                     "path": "funktionen",
-                    "icon": "a-large-small-icon"
+                    "icon": "cloud-cog"
                   }
                 ],
                 "public": true
