@@ -271,7 +271,8 @@
                     "path": "csp-general-index2",
                     "icon": "alert-circle"
                   }
-                ]
+                ],
+                "public": true
               },
               {
                 "group": "Gruppe tbd xy",
