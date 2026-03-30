@@ -265,8 +265,20 @@
           },
           {
             "tab": "Allgemein",
-            "pages": [],
-            "icon": "lucide-user2"
+            "icon": "lucide-user2",
+            "groups": [
+              {
+                "group": "Grundfunktionen",
+                "icon": "lucide-pen-tool",
+                "pages": [
+                  {
+                    "title": "Übersicht",
+                    "path": "Übersicht",
+                    "icon": "circle-user"
+                  }
+                ]
+              }
+            ]
           }
         ]
       }
