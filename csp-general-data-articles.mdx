@@ -1,5 +1,32 @@
 ---
-title: tbd
-description: asdf
+title: Artikel
+description: Struktur
 ---
+```sql
+                            Unlogged table "public.Articles"
+     Column     |            Type             | Nullable |      Default      |
+----------------+-----------------------------+----------+-------------------+
+ id             | integer                     | not null |                   |
+ art_no         | character(25)               |          |                   |
+ sku            | character(25)               |          |                   |
+ brand          | character(25)               |          |                   |
+ model          | character varying(255)      |          |                   |
+ serial         | character varying(255)      |          |                   |
+ classification | character(25)               |          |                   |
+ time_created   | timestamp without time zone |          | CURRENT_TIMESTAMP |
+ time_expected  | timestamp without time zone |          |                   |
+ time_delivered | timestamp without time zone |          |                   |
+ leadtime       | smallint                    |          | 20                |
+ uid            | integer                     |          |                   |
+ order_id       | integer                     |          |                   |
+ dept_id        | smallint                    |          |                   |
+ dept_ref       | character varying(7)        |          |                   |
+ dept_name      | character varying(127)      |          |                   |
+ price_net      | double precision            |          |                   |
+ main_status_id | smallint                    |          | 4                 |
+ last_status_id | smallint                    |          |                   |
+ remarks        | character varying(2047)     |          |                   |
+Indexes:
+    "articles_pkey" PRIMARY KEY, btree (id)
+```
 
