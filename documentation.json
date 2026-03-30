@@ -312,7 +312,8 @@
                     ],
                     "icon": "lucide-rocket"
                   }
-                ]
+                ],
+                "public": true
               },
               {
                 "group": "Gruppe xy",
