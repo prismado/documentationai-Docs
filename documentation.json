@@ -297,6 +297,11 @@
                     "group": "Daten",
                     "pages": [
                       {
+                        "title": "Allgemein",
+                        "path": "csp-general-data-overview",
+                        "icon": "database"
+                      },
+                      {
                         "title": "Bestellungen",
                         "path": "csp-general-data-orders",
                         "icon": "database"
