@@ -273,7 +273,7 @@
                 "pages": [
                   {
                     "title": "Übersicht",
-                    "path": "index",
+                    "path": "csp-general-index",
                     "icon": "circle-user"
                   }
                 ]
