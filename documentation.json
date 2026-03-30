@@ -294,7 +294,7 @@
                     "icon": "activity-square-icon"
                   },
                   {
-                    "group": "Prozesse",
+                    "group": "Daten",
                     "pages": [
                       {
                         "title": "Sub Page asdf",
@@ -307,7 +307,7 @@
                         "icon": "alert-circle"
                       }
                     ],
-                    "icon": "album-icon"
+                    "icon": "database"
                   }
                 ],
                 "icon": "cog",
