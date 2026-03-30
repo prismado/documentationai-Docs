@@ -259,11 +259,6 @@
         "icon": "lucide-warehouse",
         "tabs": [
           {
-            "tab": "Entwickler",
-            "icon": "lucide-pocket-knife",
-            "pages": []
-          },
-          {
             "tab": "Allgemein",
             "icon": "lucide-user2",
             "groups": [
@@ -279,6 +274,11 @@
                 ]
               }
             ]
+          },
+          {
+            "tab": "Entwickler",
+            "icon": "lucide-pocket-knife",
+            "pages": []
           }
         ]
       }
