@@ -278,6 +278,17 @@
                 "group": "Prozesse",
                 "pages": [
                   {
+                    "group": "page group asdf",
+                    "pages": [
+                      {
+                        "title": "tbd asdf",
+                        "path": "tbd-asdf",
+                        "icon": "a-large-small"
+                      }
+                    ],
+                    "icon": "activity-square-icon"
+                  },
+                  {
                     "group": "Prozesse",
                     "pages": [
                       {
