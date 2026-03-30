@@ -273,7 +273,7 @@
                 "pages": [
                   {
                     "title": "Übersicht",
-                    "path": "Übersicht",
+                    "path": "index",
                     "icon": "circle-user"
                   }
                 ]
