@@ -278,8 +278,13 @@
                 "group": "Prozesse",
                 "pages": [
                   {
-                    "group": "Gruppe xxaa",
+                    "group": "Prozesse",
                     "pages": [
+                      {
+                        "title": "Sub Page asdf",
+                        "path": "sub-page-asdf",
+                        "icon": "a-arrow-down"
+                      },
                       {
                         "title": "tbd xx",
                         "path": "tbd-xx-ee",
@@ -289,7 +294,8 @@
                     "icon": "album-icon"
                   }
                 ],
-                "icon": "cog"
+                "icon": "cog",
+                "public": true
               }
             ]
           },
