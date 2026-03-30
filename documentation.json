@@ -275,6 +275,21 @@
                     "title": "Funktionen",
                     "path": "csp-general-functions",
                     "icon": "cloud-cog"
+                  },
+                  {
+                    "title": "Upload Inventar",
+                    "path": "upload-inventar",
+                    "icon": "cloud-upload"
+                  },
+                  {
+                    "title": "Upload PKID Reports",
+                    "path": "upload-pkid-reports",
+                    "icon": "cloud-upload"
+                  },
+                  {
+                    "title": "Registrierung Autopilot",
+                    "path": "registrierung-autopilot",
+                    "icon": "lucide-mail-check"
                   }
                 ],
                 "public": true
