@@ -281,14 +281,14 @@
                     "group": "Prozesse",
                     "pages": [
                       {
-                        "title": "CSP-seitig",
-                        "path": "csp-process",
-                        "icon": "brain-cog"
-                      },
-                      {
                         "title": "SSP-seitig",
                         "path": "tbd-asdf",
                         "icon": "a-large-small"
+                      },
+                      {
+                        "title": "CSP-seitig",
+                        "path": "csp-process",
+                        "icon": "brain-cog"
                       }
                     ],
                     "icon": "activity-square-icon"
