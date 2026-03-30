@@ -363,13 +363,13 @@
                 "public": true
               },
               {
-                "group": "Gruppe xy",
+                "group": "API-Schnittstelle",
                 "pages": [
                   {
                     "group": "Seitengruppe",
                     "pages": [
                       {
-                        "title": "tbd",
+                        "title": "API-Zugriff",
                         "path": "tbd603301",
                         "icon": "album-icon"
                       }
@@ -377,7 +377,7 @@
                     "icon": "alert-circle-icon"
                   }
                 ],
-                "icon": "alarm-minus"
+                "icon": "cable"
               }
             ]
           }
