@@ -278,7 +278,19 @@
           {
             "tab": "Entwickler",
             "icon": "lucide-pocket-knife",
-            "pages": []
+            "pages": [
+              {
+                "group": "Grundlegendes",
+                "pages": [
+                  {
+                    "title": "Übersicht",
+                    "path": "csp-devel-index",
+                    "icon": "lucide-rocket"
+                  }
+                ],
+                "icon": "lucide-rocket"
+              }
+            ]
           }
         ]
       }
