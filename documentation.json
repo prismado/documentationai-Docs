@@ -283,7 +283,7 @@
                       {
                         "title": "SSP-seitig",
                         "path": "tbd-asdf",
-                        "icon": "a-large-small"
+                        "icon": "computer"
                       },
                       {
                         "title": "CSP-seitig",
@@ -297,14 +297,14 @@
                     "group": "Daten",
                     "pages": [
                       {
-                        "title": "Sub Page asdf",
-                        "path": "sub-page-asdf",
-                        "icon": "a-arrow-down"
+                        "title": "Bestellungen",
+                        "path": "csp-general-data-orders",
+                        "icon": "database"
                       },
                       {
-                        "title": "tbd xx",
-                        "path": "tbd-xx-ee",
-                        "icon": "alert-circle"
+                        "title": "Artikel",
+                        "path": "csp-general-data-articles",
+                        "icon": "database"
                       }
                     ],
                     "icon": "database"
