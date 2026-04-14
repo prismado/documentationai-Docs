@@ -72,6 +72,19 @@
                     "path": "status-codes",
                     "icon": "alert-circle-icon",
                     "public": true
+                  },
+                  {
+                    "group": "SSG",
+                    "pages": [
+                      {
+                        "title": "Artikelbearbeitung",
+                        "path": "ssg-article",
+                        "icon": "lucide-newspaper"
+                      }
+                    ],
+                    "icon": "component",
+                    "path": "ssg",
+                    "badge": "Spezial"
                   }
                 ],
                 "icon": "lucide-rocket"
